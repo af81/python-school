@@ -31,21 +31,25 @@ Beantwortet folgende Fragen zum Video:
     - Maschinencode
     - Algorithmus
 
-3. Verbindet die Begriffe mit Pfeilen (z. B. „Compiler → Maschinencode“).
+3. Verbindet die Begriffe mit Pfeilen (z. B. „Compiler → Maschinencode“) und verwendet passende Icons oder Symbole, um die Skizze graphisch etwas interessanter zu gestalten.
 
-4. Erklärt die Begriffe kurz in euren eigenen Worten direkt in der Zeichnung oder in einem kleinen Begleittext.
-
-5. Erstellt ein Foto oder einen Screenshot und ladet die Zeichnung (Nachnamen im Dateinamen verwenden) in Teams.
+4. Erstellt ein Foto oder einen Screenshot und ladet die Zeichnung (Nachnamen im Dateinamen verwenden, z.B. Bucher.png) in Teams.
 
 ---
 
 ### 3. Erstes Python-Programm schreiben
 
-1. In VS Code neues Projekt anlegen (helloworld.py).
-2. Code so anpassen, dass folgender Output entsteht.
+1. Erstelle an einem Ort deiner Wahl einen Ordner "HelloWorld" `mkdir HelloWorld`
+2. Wechsel in diesen Ordner `cd HelloWorld`
+3. Erstelle darin ein File hello.py mit `touch hello.py`
+4. Öffne in VS Code den Ordner HelloWorld
+5. Code so anpassen, dass folgender Output entsteht.
+6. Du führst den Code aus mit `python hello.py`(auf Mac ist es python3 hello.py)
 
     ![](../../img/helloworld-title.png)
 
-3. Frage den Benutzer nach seinem Namen.
-4. Speichere die Eingabe des Benutzers in einer String-Variable "name"
-5. Output: "Hallo XYZ! Herzlich Willkommen zu Modul 319."
+**Für Python-Kenner (optional)**
+
+1. Frage den Benutzer nach seinem Namen.
+2. Speichere die Eingabe des Benutzers in einer String-Variable "name"
+3. Output: "Hallo XYZ! Herzlich Willkommen zu Modul 319."

@@ -56,6 +56,8 @@ git config --global user.name "Vorname Nachname"
 git config --global user.email "deine@email.ch"
 ```
 
+Prüfe mit `git config --list`, ob eine Eingaben angenommen wurden.
+
 ### Schritt 4 – Verbindung testen (optional)
 1. Erstelle ein neues Repository auf GitHub
 2. Code lokal commiten und pushen:
