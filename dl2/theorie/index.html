@@ -547,6 +547,57 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#binarcode" class="md-nav__link">
+    <span class="md-ellipsis">
+      Binärcode
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Binärcode">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#grundprinzip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Grundprinzip:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#beispiel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beispiel:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#umrechnungsarten-von-dezimal-zu-binar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Umrechnungsarten von Dezimal zu Binär
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#wichtige-begriffe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wichtige Begriffe
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -727,11 +778,15 @@
 <h2 id="wie-funktioniert-ein-computerprogramm">Wie funktioniert ein Computerprogramm?</h2>
 <p>Ein <strong>Computerprogramm</strong> ist eine Reihe von Anweisungen, die einem Computer sagen, was er tun soll.
 Diese Anweisungen werden in einer <strong>Programmiersprache</strong> geschrieben (z. B. Python, Java oder C++).</p>
-<p>Ablauf in Kurzform:
-1. <strong>Eingabe</strong>: Der Benutzer oder ein anderes System liefert Daten.
-2. <strong>Verarbeitung</strong>: Das Programm führt Schritt für Schritt die Anweisungen aus (Berechnungen, Vergleiche, Logik).
-3. <strong>Ausgabe</strong>: Die Ergebnisse werden dargestellt, gespeichert oder an andere Systeme weitergegeben.</p>
+<p>Ablauf in Kurzform:</p>
+<ol>
+<li><strong>Eingabe</strong>: Der Benutzer oder ein anderes System liefert Daten.</li>
+<li><strong>Verarbeitung</strong>: Das Programm führt Schritt für Schritt die Anweisungen aus (Berechnungen, Vergleiche, Logik).</li>
+<li><strong>Ausgabe</strong>: Die Ergebnisse werden dargestellt, gespeichert oder an andere Systeme weitergegeben.</li>
+</ol>
+<blockquote>
 <p>👉 Ein Programm funktioniert also wie ein Rezept: Es beschreibt präzise, welche Schritte in welcher Reihenfolge auszuführen sind, damit ein gewünschtes Ergebnis entsteht.</p>
+</blockquote>
 <p>Hier ein kleines Beispiel in <strong>Python</strong>, das zeigt, wie ein Programm Eingaben verarbeitet und eine Ausgabe erzeugt:</p>
 <pre><code class="language-python"># 1. Eingabe: Benutzer gibt seinen Namen ein
 name = input(&quot;Wie heisst du? &quot;)
@@ -743,6 +798,7 @@ begrüssung = &quot;Hallo, &quot; + name + &quot;! Schön, dich zu sehen.&quot;
 print(begrüssung)
 
 </code></pre>
+<hr />
 <h2 id="compiler-vs-interpreter">Compiler vs. Interpreter</h2>
 <p>Ein <strong>Compiler</strong> und ein <strong>Interpreter</strong> sind Programme, die Quellcode (den der Programmierer schreibt) in etwas übersetzen, das der Computer verstehen und ausführen kann.
 Der Unterschied liegt vor allem in <strong>wann</strong> und <strong>wie</strong> die Übersetzung passiert.</p>
@@ -785,6 +841,173 @@ Der Unterschied liegt vor allem in <strong>wann</strong> und <strong>wie</strong
 <p>👉 Zusammengefasst:
 - <strong>Compiler</strong> = „Übersetzer im Voraus“ (macht ein fertiges Programm).
 - <strong>Interpreter</strong> = „Übersetzer in Echtzeit“ (führt direkt aus).</p>
+<hr />
+<h2 id="binarcode">Binärcode</h2>
+<p><strong>Binärcode</strong> ist die Sprache, die ein Computer direkt versteht.
+Sie besteht nur aus <strong>zwei Zeichen</strong>: <code>0</code> und <code>1</code>. Jede Zahl oder jedes Zeichen wird damit dargestellt.</p>
+<h4 id="grundprinzip">Grundprinzip:</h4>
+<ul>
+<li>Jeder <strong>Bit</strong> (binary digit) kann entweder <code>0</code> oder <code>1</code> sein.</li>
+<li>Mehrere Bits zusammen bilden <strong>Bytes</strong> (meist 8 Bits = 1 Byte).</li>
+<li>Alles im Computer – Zahlen, Texte, Bilder, Musik – wird in <strong>Binärform</strong> gespeichert und verarbeitet.</li>
+</ul>
+<h4 id="beispiel">Beispiel:</h4>
+<ul>
+<li>Dezimalzahl 5 → Binär: <code>0101</code></li>
+<li>Buchstabe „A“ → ASCII-Binär: <code>01000001</code></li>
+</ul>
+<p>🔎 Erklärung:
+- Ein Computer kann nur elektrische Signale ein (<code>1</code>) oder aus (<code>0</code>) unterscheiden.
+- Durch Kombination vieler Bits können komplexe Informationen codiert werden.</p>
+<p>👉 Zusammengefasst: Binärcode ist die <strong>Grundsprache der Computer</strong>, auf der alle Programme und Daten letztlich basieren.</p>
+<h3 id="umrechnungsarten-von-dezimal-zu-binar">Umrechnungsarten von Dezimal zu Binär</h3>
+<p>Um eine Dezimalzahl wie 44 in eine Binärzahl umzuwandeln, gibt es grundsätzlich zwei gängige Rechenarten:</p>
+<p>1️⃣ <strong>Division durch 2 (Restmethode)</strong></p>
+<p>Hier teilst du die Dezimalzahl wiederholt <strong>durch 2</strong> und notierst die <strong>Reste</strong>. Danach liest du die Reste <strong>von unten nach oben</strong>, um die Binärzahl zu erhalten.</p>
+<table>
+<thead>
+<tr>
+<th>Dezimalzahl</th>
+<th>÷2</th>
+<th>Ergebnis</th>
+<th>Rest</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>44</td>
+<td>2</td>
+<td>22</td>
+<td>0</td>
+</tr>
+<tr>
+<td>22</td>
+<td>2</td>
+<td>11</td>
+<td>0</td>
+</tr>
+<tr>
+<td>11</td>
+<td>2</td>
+<td>5</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>2</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>2️⃣ <strong>Subtraktion der Zweierpotenzen</strong></p>
+<p>Hier zerlegst du die Dezimalzahl in Summe von Zweierpotenzen (1, 2, 4, 8, 16, 32, …) und setzt an der jeweiligen Stelle eine 1, sonst 0.</p>
+<table>
+<thead>
+<tr>
+<th>32</th>
+<th>16</th>
+<th>8</th>
+<th>4</th>
+<th>2</th>
+<th>1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<p>Erklärung:</p>
+<ul>
+<li>Wir prüfen jede Potenz von links nach rechts, ob sie in die Zahl passt, bzw. ob die <strong>Zahl</strong> - <strong>Potenz</strong> &gt;=0 ist.</li>
+<li>Wenn ja, schreiben wir 1 und subtrahieren die Potenz, sonst 0. In unserem Beispiel also:<ul>
+<li><strong>44 - 32 = 12</strong> (wir notieren eine 1 bei 32 und merken uns den Rest von 12)</li>
+<li>dann <strong>12 - 16 = -4</strong> (wir notieren eine 0 bei 16 und fahren mit 12 weiter)</li>
+<li>dann <strong>12 - 8 = 4</strong> (wir notieren eine 1 bei 8 und merken uns den Rest von 4)</li>
+<li>...</li>
+</ul>
+</li>
+<li>So ergibt sich für 44: 101100</li>
+</ul>
+<hr />
+<h3 id="wichtige-begriffe">Wichtige Begriffe</h3>
+<table>
+<thead>
+<tr>
+<th>Begriff</th>
+<th>Erklärung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>IDE (Integrated Development Environment)</strong></td>
+<td>Eine Softwareumgebung zum Schreiben, Testen und Debuggen von Programmen, oft mit Editor, Compiler und Debugger integriert.</td>
+</tr>
+<tr>
+<td><strong>Quellcode</strong></td>
+<td>Der vom Menschen lesbare Programmtext, den Programmierer schreiben, z. B. in Python oder C.</td>
+</tr>
+<tr>
+<td><strong>Algorithmus</strong></td>
+<td>Eine klar definierte Schritt-für-Schritt-Anleitung, um ein Problem zu lösen oder eine Aufgabe zu erfüllen.</td>
+</tr>
+<tr>
+<td><strong>Syntax</strong></td>
+<td>Die Regeln einer Programmiersprache, die bestimmen, wie Programme korrekt geschrieben werden müssen. Fehler in der Syntax führen zu Fehlermeldungen.</td>
+</tr>
+<tr>
+<td><strong>Datentyp</strong></td>
+<td>Gibt an, welche Art von Daten eine Variable speichern kann, z. B. Zahl, Text oder Wahr/Falsch.</td>
+</tr>
+<tr>
+<td><strong>Variable</strong></td>
+<td>Ein benannter Speicherplatz für Daten, dessen Inhalt sich ändern kann.</td>
+</tr>
+<tr>
+<td><strong>Compiler / Interpreter</strong></td>
+<td>Ein Compiler übersetzt den Quellcode komplett in Maschinencode, bevor das Programm läuft, ein Interpreter führt den Quellcode direkt Zeile für Zeile aus.</td>
+</tr>
+<tr>
+<td><strong>Assembler</strong></td>
+<td>Ein Programm, das Assemblersprache (näher am Maschinencode) in Maschinencode übersetzt.</td>
+</tr>
+<tr>
+<td><strong>Maschinencode</strong></td>
+<td>Direkt ausführbare Befehle für die CPU, meist als Binärzahlen codiert.</td>
+</tr>
+<tr>
+<td><strong>CPU (Central Processing Unit)</strong></td>
+<td>Die zentrale Recheneinheit eines Computers, die Befehle ausführt und Berechnungen durchführt.</td>
+</tr>
+<tr>
+<td><strong>Speicher (RAM)</strong></td>
+<td>Temporärer Arbeitsspeicher eines Computers, in dem Programme und Daten während der Ausführung gespeichert werden; flüchtig, also gehen Daten beim Ausschalten verloren.</td>
+</tr>
+<tr>
+<td><strong>Output / Hardware</strong></td>
+<td>Das Ergebnis wird angezeigt, gespeichert oder an andere Hardware ausgegeben.</td>
+</tr>
+</tbody>
+</table>
 
 
 
