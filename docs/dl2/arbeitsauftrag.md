@@ -46,7 +46,7 @@ Beantwortet folgende Fragen zum Video:
 5. Code so anpassen, dass folgender Output entsteht.
 6. Du führst den Code aus mit `python hello.py`(auf Mac ist es python3 hello.py)
 
-    ![](../../img/helloworld-title.png)
+    ![](../img/helloworld-title.png)
 
 **Für Python-Kenner (optional)**
 
