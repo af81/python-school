@@ -27,7 +27,7 @@
 3. Suche nach "python"
 4. Installiere die Erweiterung "Python Extension Pack" von Don Jayamanne.
 
-![csharp extensions](../../img/python-ext.png)
+![python extensions](../img/python-ext.png)
 
 ---
 

@@ -77,6 +77,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#theorie" class="md-skip">
+          Zum Inhalt
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -481,6 +486,21 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Theorie
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -493,6 +513,43 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#wie-funktioniert-ein-computerprogramm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Wie funktioniert ein Computerprogramm?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compiler-vs-interpreter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Compiler vs. Interpreter
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -666,9 +723,68 @@
 
 
 
-  <h1>Theorie</h1>
+<h1 id="theorie">Theorie</h1>
+<h2 id="wie-funktioniert-ein-computerprogramm">Wie funktioniert ein Computerprogramm?</h2>
+<p>Ein <strong>Computerprogramm</strong> ist eine Reihe von Anweisungen, die einem Computer sagen, was er tun soll.
+Diese Anweisungen werden in einer <strong>Programmiersprache</strong> geschrieben (z. B. Python, Java oder C++).</p>
+<p>Ablauf in Kurzform:
+1. <strong>Eingabe</strong>: Der Benutzer oder ein anderes System liefert Daten.
+2. <strong>Verarbeitung</strong>: Das Programm führt Schritt für Schritt die Anweisungen aus (Berechnungen, Vergleiche, Logik).
+3. <strong>Ausgabe</strong>: Die Ergebnisse werden dargestellt, gespeichert oder an andere Systeme weitergegeben.</p>
+<p>👉 Ein Programm funktioniert also wie ein Rezept: Es beschreibt präzise, welche Schritte in welcher Reihenfolge auszuführen sind, damit ein gewünschtes Ergebnis entsteht.</p>
+<p>Hier ein kleines Beispiel in <strong>Python</strong>, das zeigt, wie ein Programm Eingaben verarbeitet und eine Ausgabe erzeugt:</p>
+<pre><code class="language-python"># 1. Eingabe: Benutzer gibt seinen Namen ein
+name = input(&quot;Wie heisst du? &quot;)
 
-<p>Wird nach der Lektion angezeigt.</p>
+# 2. Verarbeitung: Text zusammensetzen
+begrüssung = &quot;Hallo, &quot; + name + &quot;! Schön, dich zu sehen.&quot;
+
+# 3. Ausgabe: Ergebnis anzeigen
+print(begrüssung)
+
+</code></pre>
+<h2 id="compiler-vs-interpreter">Compiler vs. Interpreter</h2>
+<p>Ein <strong>Compiler</strong> und ein <strong>Interpreter</strong> sind Programme, die Quellcode (den der Programmierer schreibt) in etwas übersetzen, das der Computer verstehen und ausführen kann.
+Der Unterschied liegt vor allem in <strong>wann</strong> und <strong>wie</strong> die Übersetzung passiert.</p>
+<table>
+<thead>
+<tr>
+<th>Merkmal</th>
+<th>Compiler</th>
+<th>Interpreter</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Arbeitsweise</strong></td>
+<td>Übersetzt den gesamten Quellcode auf einmal in Maschinencode (eine ausführbare Datei).</td>
+<td>Liest und führt den Quellcode Schritt für Schritt direkt aus.</td>
+</tr>
+<tr>
+<td><strong>Geschwindigkeit</strong></td>
+<td>Ausführung ist meist schneller, da der Code vorher komplett übersetzt wurde.</td>
+<td>Langsamer, da die Übersetzung während der Laufzeit passiert.</td>
+</tr>
+<tr>
+<td><strong>Fehlererkennung</strong></td>
+<td>Meldet Fehler erst nach der vollständigen Übersetzung.</td>
+<td>Meldet Fehler sofort beim Ausführen der fehlerhaften Stelle.</td>
+</tr>
+<tr>
+<td><strong>Beispiele</strong></td>
+<td>C, C++ (meist kompiliert)</td>
+<td>Python, JavaScript (meist interpretiert)</td>
+</tr>
+<tr>
+<td><strong>Ausgabe</strong></td>
+<td>Erstellt eine separate, ausführbare Datei (.exe, .out etc.).</td>
+<td>Führt den Code direkt aus, ohne eine zusätzliche Datei zu erzeugen.</td>
+</tr>
+</tbody>
+</table>
+<p>👉 Zusammengefasst:
+- <strong>Compiler</strong> = „Übersetzer im Voraus“ (macht ein fertiges Programm).
+- <strong>Interpreter</strong> = „Übersetzer in Echtzeit“ (führt direkt aus).</p>
 
 
 
