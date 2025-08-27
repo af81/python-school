@@ -2,12 +2,9 @@
 
 ## Wie funktioniert ein Computerprogramm?
 
-Ein **Computerprogramm** ist eine Reihe von Anweisungen, die einem Computer sagen, was er tun soll.
-Diese Anweisungen werden in einer **Programmiersprache** geschrieben (z. B. Python, Java oder C++).
+Ein **Computerprogramm** ist eine Reihe von Anweisungen, die einem Computer sagen, was er tun soll. Programme folgen dabe immer dem Muster **Eingabe → Verarbeitung → Ausgabe** (EVA-Prinzip):
 
-Ablauf in Kurzform:
-
-1. **Eingabe**: Der Benutzer oder ein anderes System liefert Daten.
+1. **Eingabe**: Der Benutzer oder ein anderes System liefert Daten (z.B. über Tastatur, Maus, Geräte, Sensoren etc.)
 2. **Verarbeitung**: Das Programm führt Schritt für Schritt die Anweisungen aus (Berechnungen, Vergleiche, Logik).
 3. **Ausgabe**: Die Ergebnisse werden dargestellt, gespeichert oder an andere Systeme weitergegeben.
 
@@ -29,9 +26,40 @@ print(begrüssung)
 
 ---
 
+## Algorithmus
+
+- Hinter jedem Programm steckt ein **Algorithmus**: eine präzise Abfolge von Schritten, um ein Problem zu lösen.
+- Beispiel: Ein Programm zum **Sortieren von Zahlen** nimmt unsortierte Zahlen und ordnet sie der Reihe nach.
+
+!!! info "Eigenschaften guter Algorithmen"
+    - **Korrektheit** (liefert richtige Ergebnisse)
+    - **Eindeutigkeit** (klar definierte Schritte)
+    - **Endlichkeit** (hört irgendwann auf)
+    - **Effizienz** (benötigt vertretbare Zeit und Ressourcen)
+
+---
+
+## Ablauf im Computer
+
+Wenn ein Programm gestartet wird:
+
+1. **Laden**: Das Programm wird vom Speicher (z. B. Festplatte) in den **Arbeitsspeicher (RAM)** geladen.
+2. **Ausführen**: Die **CPU** liest nacheinander die Maschinenbefehle.
+   - Beispiele: „Addiere Wert X zu Wert Y“, „Vergleiche A mit B“, „Springe zu Anweisung Z“.
+3. **Steuerung**: Durch **Kontrollstrukturen** (z. B. *Wenn–dann*, *Wiederhole bis*) kann das Programm je nach Datenlage unterschiedlich reagieren.
+
+---
+
 ## Compiler vs. Interpreter
 
-Ein **Compiler** und ein **Interpreter** sind Programme, die Quellcode (den der Programmierer schreibt) in etwas übersetzen, das der Computer verstehen und ausführen kann.
+Programme werden in **Programmiersprachen** geschrieben.
+
+- **Hochsprachen** sind menschenlesbarer (z. B. Python, Java, C++).
+- **Maschinensprache** ist das, was der Computer wirklich versteht: eine Folge von 0 und 1 (**Binärcode**).
+- Damit der Computer ein Programm ausführen kann, wird es **übersetzt** (durch einen **Compiler** oder **Interpreter**) von der Programmiersprache in Maschinencode.
+
+Ein **Compiler** und ein **Interpreter** sind also Programme, die Quellcode (den der Programmierer schreibt) in etwas übersetzen, das der Computer verstehen und ausführen kann.
+
 Der Unterschied liegt vor allem in **wann** und **wie** die Übersetzung passiert.
 
 | Merkmal              | Compiler                                                                 | Interpreter                                                               |
@@ -53,12 +81,12 @@ Der Unterschied liegt vor allem in **wann** und **wie** die Übersetzung passier
 **Binärcode** ist die Sprache, die ein Computer direkt versteht.
 Sie besteht nur aus **zwei Zeichen**: `0` und `1`. Jede Zahl oder jedes Zeichen wird damit dargestellt.
 
-#### Grundprinzip:
+### Grundprinzip:
 - Jeder **Bit** (binary digit) kann entweder `0` oder `1` sein.
 - Mehrere Bits zusammen bilden **Bytes** (meist 8 Bits = 1 Byte).
 - Alles im Computer – Zahlen, Texte, Bilder, Musik – wird in **Binärform** gespeichert und verarbeitet.
 
-#### Beispiel:
+### Beispiel:
 - Dezimalzahl 5 → Binär: `0101`
 - Buchstabe „A“ → ASCII-Binär: `01000001`
 
@@ -107,7 +135,7 @@ Erklärung:
 
 ---
 
-### Wichtige Begriffe
+## Wichtige Begriffe
 
 | Begriff           | Erklärung |
 |------------------|-----------|
