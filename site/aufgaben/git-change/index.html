@@ -926,42 +926,42 @@
 <h2 id="schritte">🚀 Schritte</h2>
 <p><strong>1. Projekt öffnen</strong></p>
 <p>Gehe wieder in dein <strong>HelloWorld</strong>-Projekt:</p>
-<pre><code class="language-bash">cd ~/Projekte/HelloWorld
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>~/Projekte/HelloWorld
+</code></pre></div>
 <p><strong>2. Neue Änderung machen (noch nicht speichern!)</strong></p>
 <ul>
 <li>Öffne wieder die Hauptdatei (hello.py)</li>
 <li>Ergänze eine neue Zeile</li>
 </ul>
-<pre><code class="language-c#">print(&quot;Oops! Das will ich eigentlich nicht behalten.&quot;)
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">print</span><span class="p">(</span><span class="s">&quot;Oops! Das will ich eigentlich nicht behalten.&quot;</span><span class="p">)</span>
+</code></pre></div>
 <p><strong>3. Datei ändern</strong></p>
 <p>Prüfe den Status:</p>
-<pre><code class="language-bash">git status
-</code></pre>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>status
+</code></pre></div>
 <p>Verwirf die Änderung:</p>
-<pre><code class="language-bash">git checkout -- &lt;dateiname&gt;
-</code></pre>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>checkout<span class="w"> </span>--<span class="w"> </span>&lt;dateiname&gt;
+</code></pre></div>
 <p>Prüfe erneut mit <code>git status</code>. Die Datei ist wieder unverändert.</p>
 <p><strong>4. Neue Änderung machen und zum Staging hinzufügen</strong></p>
 <p>Schreibe eine neue Zeile in deine <code>hello.py</code>:</p>
-<pre><code class="language-c#">print(&quot;Diese Zeile stage ich erst und unstage sie dann.&quot;)
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="n">print</span><span class="p">(</span><span class="s">&quot;Diese Zeile stage ich erst und unstage sie dann.&quot;</span><span class="p">)</span>
+</code></pre></div>
 <p>Stage die Änderung:</p>
-<pre><code class="language-bash">git add .
-</code></pre>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.
+</code></pre></div>
 <p><strong>5. Staging zurücknehmen</strong></p>
-<pre><code class="language-bash">git reset .
-</code></pre>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>reset<span class="w"> </span>.
+</code></pre></div>
 <p>➝ Jetzt ist die Datei wieder unstaged, aber die Änderung ist noch da.</p>
 <p><strong>6. Commit erstellen und zurückrollen</strong></p>
 <p>Mache einen Commit:</p>
-<pre><code class="language-bash">git add .
-git commit -m &quot;feat: add experimental code&quot;
-</code></pre>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>add<span class="w"> </span>.
+git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;feat: add experimental code&quot;</span>
+</code></pre></div>
 <p>Oh nein! Falsch commited? Gehe zurück zum letzten Zustand:</p>
-<pre><code class="language-bash">git reset --soft HEAD~1
-</code></pre>
+<div class="highlight"><pre><span></span><code>git<span class="w"> </span>reset<span class="w"> </span>--soft<span class="w"> </span>HEAD~1
+</code></pre></div>
 <p>➝ Der Commit wurde entfernt, die Änderungen bleiben aber erhalten.</p>
 <p>✅ <strong>Ziel erreicht, wenn …</strong></p>
 <ul>
