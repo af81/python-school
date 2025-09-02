@@ -31,6 +31,9 @@ git remote add origin git@github.com:deinname/HelloWorld.git
 git push -u origin main
 ```
 
+!!! Kein Zugriff - SSH
+    Falls ihr keinen Zugriff auf Github habt, dann müsst ihr einen SSH-Key erstellen. Informiere dich hier hier [Generate SSH Key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
 ### **5. Prüfen**
 
 - Lade deine Repository-Seite auf GitHub neu
