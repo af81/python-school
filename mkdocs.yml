@@ -36,7 +36,7 @@ nav:
       - Git und GitHub: theorie/git.md
   - Aufgaben:
       - "Setup":
-        - VS Code & .NET SDK: aufgaben/vscode-setup.md
+        - VS Code & Python: aufgaben/vscode-setup.md
         - Git & GitHub: aufgaben/git-setup.md
       - "Erste Schritte":
         - Wichtige Begriffe lernen: aufgaben/begriffe.md
