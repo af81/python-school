@@ -765,6 +765,57 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="🚀 Schritte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-neues-repository-auf-github-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Neues Repository auf GitHub erstellen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-remote-url-kopieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Remote-URL kopieren
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-lokales-projekt-verbinden" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Lokales Projekt verbinden
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-projekt-hochladen" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Projekt hochladen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-prufen" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Prüfen
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -924,36 +975,30 @@
 <p>🎯 <strong>Ziel</strong>: Lerne, wie du dein lokales Projekt mit einem Remote Repository auf GitHub verbindest und es hochlädst.</p>
 <hr />
 <h2 id="schritte">🚀 Schritte</h2>
-<ol>
-<li><strong>Neues Repository auf GitHub erstellen</strong></li>
+<h3 id="1-neues-repository-auf-github-erstellen"><strong>1. Neues Repository auf GitHub erstellen</strong></h3>
+<ul>
 <li>Gehe auf <a href="https://github.com">https://github.com</a></li>
 <li>Klicke oben rechts auf <strong>+ → New repository</strong></li>
 <li>Repository-Name: <code>HelloWorld</code></li>
 <li>Sichtbarkeit: <strong>Public</strong> oder <strong>Private</strong></li>
 <li><strong>Keine README, .gitignore oder License hinzufügen</strong> (wir haben schon ein lokales Repo!)</li>
-<li>
-<p>Klicke auf <strong>Create repository</strong></p>
-</li>
-<li>
-<p><strong>Remote-URL kopieren</strong></p>
-</li>
-<li>
-<p>Auf der Repository-Seite kopiere die <strong>SSH-URL</strong> (z. B. <code>git@github.com:deinname/HelloWorld.git</code>)</p>
-</li>
-<li>
-<p><strong>Lokales Projekt verbinden</strong></p>
-</li>
+<li>Klicke auf <strong>Create repository</strong></li>
+</ul>
+<h3 id="2-remote-url-kopieren"><strong>2. Remote-URL kopieren</strong></h3>
+<ul>
+<li>Auf der Repository-Seite kopiere die <strong>SSH-URL</strong> (z. B. <code>git@github.com:deinname/HelloWorld.git</code>)</li>
+</ul>
+<h3 id="3-lokales-projekt-verbinden"><strong>3. Lokales Projekt verbinden</strong></h3>
+<ul>
 <li>Öffne dein HelloWorld-Projekt im Terminal</li>
 <li>Verbinde dein lokales Repo mit GitHub:</li>
-</ol>
+</ul>
 <pre><code class="language-bash">git remote add origin git@github.com:deinname/HelloWorld.git
 </code></pre>
-<ol>
-<li><strong>Projekt hochladen</strong></li>
-</ol>
+<h3 id="4-projekt-hochladen"><strong>4. Projekt hochladen</strong></h3>
 <pre><code class="language-bash">git push -u origin main
 </code></pre>
-<p><strong>5. Prüfen</strong></p>
+<h3 id="5-prufen"><strong>5. Prüfen</strong></h3>
 <ul>
 <li>Lade deine Repository-Seite auf GitHub neu</li>
 <li>Dein Projekt und die bisherigen Commits sollten jetzt sichtbar sein</li>
