@@ -3,6 +3,10 @@ site_description: Unterrichtsmaterial für das Modul 319 an der BBZW Sursee
 site_author: Dr. Andreas Fischer
 site_url: https://af81.github.io/python-school/
 copyright: Copyright &copy; 2025 Dr. Andreas Fischer
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 theme:
   name: material
   logo: img/python-logo.png
