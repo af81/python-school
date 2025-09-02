@@ -34,7 +34,7 @@ git status
 Verwirf die Änderung:
 
 ```bash
-git checkout --<dateiname>
+git checkout -- <dateiname>
 ```
 
 Prüfe erneut mit `git status`. Die Datei ist wieder unverändert.
