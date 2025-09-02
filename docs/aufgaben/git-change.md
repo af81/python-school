@@ -20,7 +20,7 @@ cd ~/Projekte/HelloWorld
 - Ergänze eine neue Zeile
 
 ```c#
-Console.WriteLine("Oops! Das will ich eigentlich nicht behalten.");
+print("Oops! Das will ich eigentlich nicht behalten.")
 ```
 
 **3. Datei ändern**
@@ -44,7 +44,7 @@ Prüfe erneut mit `git status`. Die Datei ist wieder unverändert.
 Schreibe eine neue Zeile in deine `hello.py`:
 
 ```c#
-Console.WriteLine("Diese Zeile stage ich erst und unstage sie dann.");
+print("Diese Zeile stage ich erst und unstage sie dann.")
 ```
 
 Stage die Änderung:
