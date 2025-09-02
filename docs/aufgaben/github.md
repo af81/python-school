@@ -6,7 +6,7 @@
 
 ## 🚀 Schritte
 
-1. **Neues Repository auf GitHub erstellen**
+### **1. Neues Repository auf GitHub erstellen**
    - Gehe auf [https://github.com](https://github.com)
    - Klicke oben rechts auf **+ → New repository**
    - Repository-Name: `HelloWorld`
@@ -14,10 +14,10 @@
    - **Keine README, .gitignore oder License hinzufügen** (wir haben schon ein lokales Repo!)
    - Klicke auf **Create repository**
 
-2. **Remote-URL kopieren**
+### **2. Remote-URL kopieren**
    - Auf der Repository-Seite kopiere die **SSH-URL** (z. B. `git@github.com:deinname/HelloWorld.git`)
 
-3. **Lokales Projekt verbinden**
+### **3. Lokales Projekt verbinden**
    - Öffne dein HelloWorld-Projekt im Terminal
    - Verbinde dein lokales Repo mit GitHub:
 
@@ -25,13 +25,13 @@
 git remote add origin git@github.com:deinname/HelloWorld.git
 ```
 
-4. **Projekt hochladen**
+### **4. Projekt hochladen**
 
 ```bash
 git push -u origin main
 ```
 
-**5. Prüfen**
+### **5. Prüfen**
 
 - Lade deine Repository-Seite auf GitHub neu
 - Dein Projekt und die bisherigen Commits sollten jetzt sichtbar sein
