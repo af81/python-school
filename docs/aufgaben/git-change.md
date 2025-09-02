@@ -72,7 +72,7 @@ git commit -m "feat: add experimental code"
 
 Oh nein! Falsch commited? Gehe zurück zum letzten Zustand:
 
-``bash
+```bash
 git reset --soft HEAD~1
 ```
 
