@@ -38,18 +38,29 @@ nav:
   - Theorie:
       - Grundlagen Programmierung: theorie/computer-programm.md
       - Git und GitHub: theorie/git.md
+      - "Python Grundlagen":
+        - Einführung in Python: theorie/firstprogram.md
+        - Variablen & Datentypen: theorie/variablen.md
+        # - Datentypen: theorie/python-datentypen.md
+        # - Kontrollstrukturen: theorie/python-kontrollstrukturen.md
+        # - Funktionen: theorie/python-funktionen.md
+        # - Listen und Tupel: theorie/python-listen-tupel.md
+        # - Dictionaries: theorie/python-dictionaries.md
+        # - Dateien: theorie/python-dateien.md
+        # - Fehler und Ausnahmen: theorie/python-fehler.md
+        # - Klassen und Objekte: theorie/python-klassen.md
   - Aufgaben:
-      - "Setup":
+      - "Setup & Begriffe":
         - VS Code & Python: aufgaben/vscode-setup.md
         - Git & GitHub: aufgaben/git-setup.md
-      - "Erste Schritte":
         - Wichtige Begriffe lernen: aufgaben/begriffe.md
-        - Hello World mit Python: aufgaben/helloworld.md
       - "Git & GitHub":
         - Das erste Repository: aufgaben/git.md
         - Änderungen nachvollziehen: aufgaben/git-commit.md
         - Änderungen rückgängig machen: aufgaben/git-change.md
         - Github-Repos verbinden: aufgaben/github.md
+      - "Python Grundlagen":
+        - Erste Python-Programme: aufgaben/helloworld.md
   - Klassenregeln: regeln.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
