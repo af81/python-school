@@ -53,14 +53,16 @@ nav:
       - "Setup & Begriffe":
         - VS Code & Python: aufgaben/vscode-setup.md
         - Git & GitHub: aufgaben/git-setup.md
+        - Hello World!: aufgaben/hellowoworld.md
         - Wichtige Begriffe lernen: aufgaben/begriffe.md
       - "Git & GitHub":
         - Das erste Repository: aufgaben/git.md
         - Änderungen nachvollziehen: aufgaben/git-commit.md
         - Änderungen rückgängig machen: aufgaben/git-change.md
         - Github-Repos verbinden: aufgaben/github.md
-      - "Python Grundlagen":
-        - Erste Python-Programme: aufgaben/helloworld.md
+      - "Python Basics":
+        - Repo einrichten: aufgaben/python-repo.md
+        - Block 1: aufgaben/block_1.md
   - Klassenregeln: regeln.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md

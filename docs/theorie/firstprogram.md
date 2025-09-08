@@ -21,7 +21,7 @@ Für jedes Programm (bzw. Programmierprojekt) brauchen wir eine **saubere Ordner
 
 ---
 
-## 🧑🏼‍💻 HelloWorld - Erster Code
+## 🌎 HelloWorld - Ein Programm ausführen
 
 Wir schreiben nun als erstes das übliche *Hello World*-Programm. Dieses hilft Anfängern die grundlegende **Syntax** (Grammatik) einer Programmiersprache zu verstehen.
 
@@ -38,6 +38,21 @@ Starte nun dein Programm mit `python hello.py`(Mac: `python3 hello.py`). Der Out
 ```bash
 Hello World!
 ```
+
+---
+
+## 🧑🏼‍💻 Das EVA-Modell.
+
+Computerprogramme funktionieren nach dem **EVA-Prinzip** (Eingabe - Verarbeitung - Ausgabe). D.h. wir müssen dem Programm auf irgendeine Weise einen **Input** (Datenfiles, Eingabebes Benutzers per Tastatur, etc.) zuführen, diesen verarbeiten und dann als **Output** wieder ausgeben.
+
+Für die Benutzereingabe können wir in Python den Befehl `input` verwenden.
+
+```python
+# using input() to take user input
+age = input("Wie alt bist du? [in Jahren]: ")
+
+# print age
+print("Dein Alter: ", age)
 
 ---
 

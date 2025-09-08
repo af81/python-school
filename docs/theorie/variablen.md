@@ -113,6 +113,28 @@ type(hero) # <class 'bool', also Boolean
 
 > 🤓 Um lange Ganzzahlen wie z.B. 1000000 besser lesen zu können, kann man `_` verwenden. Z.B. 1_000_000. Der Wert ändert sich dadurch nicht.
 
+
+Es ist wichtig zu wissen, dass der **input()-Befehl** immer einen *Zeichenkette* (String) einliest. Selbst wenn die Eingabe eine *Ganzzahl* (Integer), z.B. 16, ist.
+
+```python
+# using input() to take user input
+age = input("Wie alt bist du? [in Jahren]: ")
+
+# print age
+print("Dein Alter: ", age)
+
+# investigate data type of age
+print ("Datentyp der Variable age: ", type(age))
+```
+
+Damit wir mit der Variable *age* rechnen können, müssen wir sie zuerst in einen Zahlentyp wie Integer oder Float konvertieren (umwandeln). Das machen wir mithilfe der **int()-** oder **float()-Funtkion**.
+
+```python
+age = int(input("Wie alt bist du? [in Jahren]: "))
+```
+
+Hier wird der der Datentyp der Benutzereingabe von String zu Integer konvertiert.
+
 ---
 
 ## String-Operationen
@@ -215,6 +237,17 @@ print(f"My name is {name} and I am learning {language}.")
 # My name is Kim and I am learning Python.
 ```
 
+### Gross- und Kleinbuchstaben
+
+Um Strings komplett in **Gross- oder Kleinbuchstaben** zu transformieren, stehen die Funktionen `upper()` und `lower()` zur Verfügung.
+
+```python
+name = "Ringo"
+
+print(name.upper())     # RINGO
+print(name.lower())     # ringo
+```
+
 ### Weitere String-Funktionen
 
 Weitere String-Funktionen kannst du in der offiziellen Python-Dokumentation nachlesen:
@@ -283,7 +316,7 @@ Beim Potenzieren wird eine Zahl n-mal mit sich selbst multipliziert.
 print(2 ** 5)     # 32  Entspricht 2`5. Hier wird also 2 * 2 * 2 * 2 * 2 gerechnet
 ```
 
-### Interger-Division und Modulo
+### Integer-Division und Modulo
 
 Wenn das Ergebnis einer Divison keine Gannzahl ergibt (z.B. 1.5), dann können wir mit der **Integer-Divison** dafür sorgen, dass das Ergebnis eine Ganzzahl ausgibt und die Stellen nach dem Komman wegschneidet (nicht runden).
 
@@ -366,31 +399,31 @@ Mit **logischen Operatoren** kann man Wahrheitswerte verknüpfen und vergleichen
 
 #### AND
 
-Werden zwei Wahrheitswerte a und b mit einem `AND`verküpft, dann ist das Ergebnis genau dann `True`, wenn a UND b beide `True` sind. Ist a oder b (oder beide) `FALSE` ist auch die Verknüpfung `FALSE`.
+Werden zwei Wahrheitswerte a und b mit einem `and`verküpft, dann ist das Ergebnis genau dann `True`, wenn a UND b beide `True` sind. Ist a oder b (oder beide) `FALSE` ist auch die Verknüpfung `FALSE`.
 
 ```python
-8 > 5 AND 4 != 2        # True, da beide Aussagen (8 > 5 und 4 != 2) True sind
+8 > 5 and 4 != 2        # True, da beide Aussagen (8 > 5 und 4 != 2) True sind
 
-8 > 5 AND 4 = 2         # False, da eine Aussage (8 > 5) zwar True, aber die andere (4 = 2) False ist
+8 > 5 and 4 = 2         # False, da eine Aussage (8 > 5) zwar True, aber die andere (4 = 2) False ist
 
-8 < 5 AND 4 = 2          # False, da beide Aussagen (8 < 5 und 4 = 2) False sind
+8 < 5 and 4 = 2          # False, da beide Aussagen (8 < 5 und 4 = 2) False sind
 ```
 
 #### OR
 
-Werden zwei Wahrheitswerte a und b mit einem `OR`verküpft, dann ist das Ergebnis `True`, wenn a ODER b (oder beide) `True` sind. Sind beide `FALSE` ist auch die Verknüpfung `FALSE`.
+Werden zwei Wahrheitswerte a und b mit einem `or`verküpft, dann ist das Ergebnis `True`, wenn a ODER b (oder beide) `True` sind. Sind beide `FALSE` ist auch die Verknüpfung `FALSE`.
 
 ```python
-8 > 5 OR 4 != 2         # True, da beide Aussagen (8 > 5 und 4 != 2) True sind
+8 > 5 or 4 != 2         # True, da beide Aussagen (8 > 5 und 4 != 2) True sind
 
-8 > 5 OR 4 = 2          # True, da mindestens eine Aussage (8 > 5) True ist
+8 > 5 or 4 = 2          # True, da mindestens eine Aussage (8 > 5) True ist
 
-8 < 5 OR 4 = 2          # False, da beide Aussagen (8 < 5 und 4 = 2) False sind
+8 < 5 or 4 = 2          # False, da beide Aussagen (8 < 5 und 4 = 2) False sind
 ```
 
 #### XOR
 
-Werden zwei Wahrheitswerte a und b mit einem `XOR`(^) verküpft, dann ist das Ergebnis `True`, wenn ENTWEDER a ODER b `True` sind, ABER NICHT BEIDE. Sind beide `FALSE` ist auch die Verknüpfung weiterhin `FALSE`.
+Werden zwei Wahrheitswerte a und b mit einem `^`(xor) verküpft, dann ist das Ergebnis `True`, wenn ENTWEDER a ODER b `True` sind, ABER NICHT BEIDE. Sind beide `FALSE` ist auch die Verknüpfung weiterhin `FALSE`.
 
 ```python
 8 > 5 ^ 4 = 2          # True, da mindestens ein Element (8 > 5) True ist
