@@ -389,7 +389,7 @@
   
   
   <span class="md-ellipsis">
-    Python Grundlagen
+    Python Basics
     
   </span>
   
@@ -400,7 +400,7 @@
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_3">
             <span class="md-nav__icon md-icon"></span>
-            Python Grundlagen
+            Python Basics
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -505,6 +505,15 @@
   <a href="#datentypen" class="md-nav__link">
     <span class="md-ellipsis">
       Datentypen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#konvertieren-benutzereingabe-mit-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      Konvertieren - Benutzereingabe mit input()
     </span>
   </a>
   
@@ -1047,6 +1056,29 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aufgaben/github-team/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Github im Team nutzen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -1376,6 +1408,8 @@
 <blockquote>
 <p>🤓 Um lange Ganzzahlen wie z.B. 1000000 besser lesen zu können, kann man <code>_</code> verwenden. Z.B. 1_000_000. Der Wert ändert sich dadurch nicht.</p>
 </blockquote>
+<hr />
+<h2 id="konvertieren-benutzereingabe-mit-input">Konvertieren - Benutzereingabe mit input()</h2>
 <p>Es ist wichtig zu wissen, dass der <strong>input()-Befehl</strong> immer einen <em>Zeichenkette</em> (String) einliest. Selbst wenn die Eingabe eine <em>Ganzzahl</em> (Integer), z.B. 16, ist.</p>
 <div class="highlight"><pre><span></span><code><span class="c1"># using input() to take user input</span>
 <span class="n">age</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Wie alt bist du? [in Jahren]: &quot;</span><span class="p">)</span>
@@ -1386,7 +1420,7 @@
 <span class="c1"># investigate data type of age</span>
 <span class="nb">print</span> <span class="p">(</span><span class="s2">&quot;Datentyp der Variable age: &quot;</span><span class="p">,</span> <span class="nb">type</span><span class="p">(</span><span class="n">age</span><span class="p">))</span>
 </code></pre></div>
-<p>Damit wir mit der Variable <em>age</em> rechnen können, müssen wir sie zuerst in einen Zahlentyp wie Integer oder Float konvertieren (umwandeln). Das machen wir mithilfe der <strong>int()-</strong> oder <strong>float()-Funtkion</strong>.</p>
+<p>Damit wir mit der Variable <em>age</em> rechnen können, müssen wir sie zuerst in einen Zahlentyp wie Integer oder Float <strong>konvertieren (umwandeln)</strong>. Das machen wir mithilfe der <strong>int()-</strong> oder <strong>float()-Funktion</strong>.</p>
 <div class="highlight"><pre><span></span><code><span class="n">age</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Wie alt bist du? [in Jahren]: &quot;</span><span class="p">))</span>
 </code></pre></div>
 <p>Hier wird der der Datentyp der Benutzereingabe von String zu Integer konvertiert.</p>
@@ -1423,7 +1457,7 @@
 <span class="c1"># Zweite Zeile.</span>
 </code></pre></div>
 <h3 id="anfuhrungszeichen-innerhalb-eines-strings">Anführungszeichen innerhalb eines Strings</h3>
-<p>Willst du innerhalb eines Strings <strong>Anführungszeichen</strong> nutzen, ohne einen Fehler zu erzeugen, brauchst du das Markierungszeichen <code>\</code>.</p>
+<p>Willst du innerhalb eines Strings <strong>Anführungszeichen</strong> nutzen, ohne einen Fehler zu erzeugen, brauchst du das Markierungszeichen <code>\"</code>.</p>
 <div class="highlight"><pre><span></span><code><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;Der </span><span class="se">\&quot;</span><span class="s2">FCL</span><span class="se">\&quot;</span><span class="s2"> ist mein Lieblingsclub.&quot;</span>    <span class="c1"># Der &quot;FCL&quot; ist mein Lieblingsclub.</span>
 </code></pre></div>
 <h3 id="lange-eines-strings">Länge eines Strings</h3>

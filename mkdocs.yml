@@ -41,6 +41,8 @@ nav:
       - "Python Basics":
         - Einführung in Python: theorie/firstprogram.md
         - Variablen & Datentypen: theorie/variablen.md
+        - Rechnen: theorie/rechnen.md
+        - Operatoren: theorie/operatoren.md
         # - Datentypen: theorie/python-datentypen.md
         # - Kontrollstrukturen: theorie/python-kontrollstrukturen.md
         # - Funktionen: theorie/python-funktionen.md

@@ -259,193 +259,30 @@ Weitere String-Funktionen kannst du in der offiziellen Python-Dokumentation nach
 
 ---
 
-## Rechnen
+## Coding-Aufgaben "Variablen"
 
-### Grundrechenarten
+Lösen in Block 1 die **Aufgaben 1, 2 und 3**.
 
-Die vier mathematischen Grundrechenarten **Addition** (+), **Substraktion** (-), **Multiplikation** (*) und **Division** (/) sind auch in Python möglich.
+<!-- Erstelle ein Projekt und Repo ([Anleitung](aufgaben/python-repo.md)) mit dem Namen **VarTasks**.
 
-```python
-print(5 + 8)        # 13
+### 1. Einfache Ein- und Ausgabe
 
-print(5 - 3)        # 2
+1. Schreibe ein Programm, das deinen Namen einliest und ihn mit einer Begrüssung ausgibt.
+    - Beispiel: „Hallo Anna! Schön, dass du da bist.“
 
-print (3 + 2.0)     # 5.0   Wenn ein Element in einer Rechnung ein Float ist, wird das Ergebnis auch immer ein Float
+---
 
-print(5 * 80)       # 400
+### 2. Variablen & Datentypen
 
-print (6 / 2)       # 3.0   Bei / kommt immer ein Float raus
+1. Deklariere drei Variablen: eine ganze Zahl, eine Kommazahl und einen Text. Lasse dir jeweils den Datentyp mit `type()` ausgeben.
 
-print (6 / 4)       # 1.5
+2. **Wissensfrage:** Was ist der Unterschied zwischen `=` und `==`?
 
-print (6 // 4)      # 1     Das ist die sogenannte Integer-Division, bei der die Nachkommastellen einfach weggelassen werden
-```
+---
 
-### Runden
+### 3. String-Operationen
 
-Um Float-Zahlen zu runden, braucht man die Funktion `round(x, y)`. Für **x** setzt man die zu rundende Zahl ein, für **y** die Anzahl Nachkommastellen.
+1. Schreibe ein Programm, das deinen Namen in Grossbuchstaben, Kleinbuchstaben und umgedreht ausgibt.
+   Beispiel: `Anna` → `ANNA`, `anna`, `annA`.
 
-```python
-number = 3.5 / 1.2   # 2.916666666666667
-
-round(number, 2)     # 2.91     number wird auf 2 Nachkommastellen gerundet
-```
-
-### Inkrementieren und Dekrementieren
-
-Wenn du den Werte einer Variable um 1 erhöhen bzw. verringern möchtest, bezeichnet man das als **Inkrementieren bzw. Dekrementieren**.
-
-```python
-number = 18
-
-number += 1     # 19    number wird um den Wert 1 erhöht
-number -= 1     # 17    number wird um den Wert 1 verringert
-```
-
-Man kann den Wert statt um 1 auch um einen **beliebigen Wert** erhöhen bzw. verringern.
-
-```python
-number = 18
-
-number += 2     # 20    number wird um den Wert 2 erhöht
-number -= 8     # 10    number wird um den Wert 8 verringert
-```
-
-### Potenzieren
-
-Beim Potenzieren wird eine Zahl n-mal mit sich selbst multipliziert.
-
-```python
-print(2 ** 5)     # 32  Entspricht 2`5. Hier wird also 2 * 2 * 2 * 2 * 2 gerechnet
-```
-
-### Integer-Division und Modulo
-
-Wenn das Ergebnis einer Divison keine Gannzahl ergibt (z.B. 1.5), dann können wir mit der **Integer-Divison** dafür sorgen, dass das Ergebnis eine Ganzzahl ausgibt und die Stellen nach dem Komman wegschneidet (nicht runden).
-
-```python
-print (6 / 4)       # 1.5
-
-print (6 // 4)      # 1     Integer-Division. Die Nachkommastelle wird weggelassen
-```
-
-Interessieren wir uns bei einer Division für den **Rest**, dann verwenden wir den **Modulo-Operator** `%`.
-
-```python
-print (9 % 3)       # 0     9 / 3 = 3, Rest 0
-
-print (9 % 2)       # 1     9 / 2 = 4, Rest 1
-
-print (5 % 9)       # 5     5 / 9 = 0, Rest 5
-```
-
-### Vergleichsoperatoren
-
-Mit **Vergleichsoperatoren** könnne wir Werte miteinander vergleichen. Das Ergebnis eines Vergleichs ist ein Wahrheitswert vom Datentyp `bool`, als entweder `True`oder `False`.
-
-<table>
-    <tr>
-      <th>Operator</th>
-      <th>Bedeutung</th>
-    </tr>
-    <tr>
-      <td>a < b</td>
-      <td>a kleiner als b</td>
-    </tr>
-    <tr>
-      <td>a <= b</td>
-      <td>a kleiner oder gleich b</td>
-    </tr>
-    <tr>
-      <td>a == b</td>
-      <td>a gleich b</td>
-    </tr>
-    <tr>
-      <td>a != b</td>
-      <td>a ungleich b</td>
-    </tr>
-    <tr>
-      <td>a >= b</td>
-      <td>a grösser gleich b</td>
-    </tr>
-    <tr>
-      <td>a > b</td>
-      <td>a grösser als b</td>
-    </tr>
-</table>
-
-Hier ein paar Beispiele:
-
-```python
-7.6 > 1             # True, weil 7.6 grösser als 1 ist
-
-34 >= 34            # True, weil 34 grösser oder gleich 34 ist
-
-5 == 7              # False, weil 5 nicht gleich 7 ist
-
-50 != 78            # True, weil 50 ungleich 78 ist
-
-0.5 < 0.3           # False, weil 0.5 nicht kleiner als 0.3 ist
-```
-
-Man kann auch **Strings** miteinander vergleichen.
-
-```python
-"Password123" == "Password321"  # False, weil die beiden Strings nicht gleich sind
-
-"Juliana" != "Julianna"         # True, weil die beiden Strings ungleich sind
-```
-
-### Logische Operatoren
-
-Mit **logischen Operatoren** kann man Wahrheitswerte verknüpfen und vergleichen.
-
-#### AND
-
-Werden zwei Wahrheitswerte a und b mit einem `and`verküpft, dann ist das Ergebnis genau dann `True`, wenn a UND b beide `True` sind. Ist a oder b (oder beide) `FALSE` ist auch die Verknüpfung `FALSE`.
-
-```python
-8 > 5 and 4 != 2        # True, da beide Aussagen (8 > 5 und 4 != 2) True sind
-
-8 > 5 and 4 = 2         # False, da eine Aussage (8 > 5) zwar True, aber die andere (4 = 2) False ist
-
-8 < 5 and 4 = 2          # False, da beide Aussagen (8 < 5 und 4 = 2) False sind
-```
-
-#### OR
-
-Werden zwei Wahrheitswerte a und b mit einem `or`verküpft, dann ist das Ergebnis `True`, wenn a ODER b (oder beide) `True` sind. Sind beide `FALSE` ist auch die Verknüpfung `FALSE`.
-
-```python
-8 > 5 or 4 != 2         # True, da beide Aussagen (8 > 5 und 4 != 2) True sind
-
-8 > 5 or 4 = 2          # True, da mindestens eine Aussage (8 > 5) True ist
-
-8 < 5 or 4 = 2          # False, da beide Aussagen (8 < 5 und 4 = 2) False sind
-```
-
-#### XOR
-
-Werden zwei Wahrheitswerte a und b mit einem `^`(xor) verküpft, dann ist das Ergebnis `True`, wenn ENTWEDER a ODER b `True` sind, ABER NICHT BEIDE. Sind beide `FALSE` ist auch die Verknüpfung weiterhin `FALSE`.
-
-```python
-8 > 5 ^ 4 = 2          # True, da mindestens ein Element (8 > 5) True ist
-
-8 < 5 ^ 4 = 2          # False, da beide Elemente (8 < 5) und (4 = 2) False sind
-
-8 > 5 ^ 4 != 2         # False, da beide Elemente (8 < 5) und (4 = 2) True sind
-```
-
-#### NOT
-
-Beim Operator `NOT` wird ausnahmsweise nur der Wahrheitswert einer Aussage beurteilt. Und zwar wird hier überprüft, ob die Aussage insgesamt `FALSE` ist.
-
-```python
-3 == 3                 # True, da 3 gleich 3 ist
-
-"John" == "John"       # True, da die beiden Strings übereinstimmen
-
-not 3 == 3             # False, da 3 gleich 3 ist, aber negiert wird
-
-not "John" == "Pam"    # True, da John ungleich Pam ist, und dies korrekterweise negiert wird
-```
+2. Lasse den Benutzer zwei weitere Wörter eingeben und verbinde sie zu einem neuen Wort. -->
