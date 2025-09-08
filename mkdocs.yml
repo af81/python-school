@@ -38,7 +38,7 @@ nav:
   - Theorie:
       - Grundlagen Programmierung: theorie/computer-programm.md
       - Git und GitHub: theorie/git.md
-      - "Python Grundlagen":
+      - "Python Basics":
         - Einführung in Python: theorie/firstprogram.md
         - Variablen & Datentypen: theorie/variablen.md
         # - Datentypen: theorie/python-datentypen.md

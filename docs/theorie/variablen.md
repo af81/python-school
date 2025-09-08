@@ -114,6 +114,8 @@ type(hero) # <class 'bool', also Boolean
 > 🤓 Um lange Ganzzahlen wie z.B. 1000000 besser lesen zu können, kann man `_` verwenden. Z.B. 1_000_000. Der Wert ändert sich dadurch nicht.
 
 
+## Konvertieren - Benutzereingabe mit input()
+
 Es ist wichtig zu wissen, dass der **input()-Befehl** immer einen *Zeichenkette* (String) einliest. Selbst wenn die Eingabe eine *Ganzzahl* (Integer), z.B. 16, ist.
 
 ```python
@@ -127,7 +129,7 @@ print("Dein Alter: ", age)
 print ("Datentyp der Variable age: ", type(age))
 ```
 
-Damit wir mit der Variable *age* rechnen können, müssen wir sie zuerst in einen Zahlentyp wie Integer oder Float konvertieren (umwandeln). Das machen wir mithilfe der **int()-** oder **float()-Funtkion**.
+Damit wir mit der Variable *age* rechnen können, müssen wir sie zuerst in einen Zahlentyp wie Integer oder Float **konvertieren (umwandeln)**. Das machen wir mithilfe der **int()-** oder **float()-Funtkion**.
 
 ```python
 age = int(input("Wie alt bist du? [in Jahren]: "))
