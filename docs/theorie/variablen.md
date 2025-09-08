@@ -113,6 +113,7 @@ type(hero) # <class 'bool', also Boolean
 
 > 🤓 Um lange Ganzzahlen wie z.B. 1000000 besser lesen zu können, kann man `_` verwenden. Z.B. 1_000_000. Der Wert ändert sich dadurch nicht.
 
+---
 
 ## Konvertieren - Benutzereingabe mit input()
 
@@ -129,7 +130,7 @@ print("Dein Alter: ", age)
 print ("Datentyp der Variable age: ", type(age))
 ```
 
-Damit wir mit der Variable *age* rechnen können, müssen wir sie zuerst in einen Zahlentyp wie Integer oder Float **konvertieren (umwandeln)**. Das machen wir mithilfe der **int()-** oder **float()-Funtkion**.
+Damit wir mit der Variable *age* rechnen können, müssen wir sie zuerst in einen Zahlentyp wie Integer oder Float **konvertieren (umwandeln)**. Das machen wir mithilfe der **int()-** oder **float()-Funktion**.
 
 ```python
 age = int(input("Wie alt bist du? [in Jahren]: "))
@@ -189,7 +190,7 @@ print[text]
 
 ### Anführungszeichen innerhalb eines Strings
 
-Willst du innerhalb eines Strings **Anführungszeichen** nutzen, ohne einen Fehler zu erzeugen, brauchst du das Markierungszeichen `\`.
+Willst du innerhalb eines Strings **Anführungszeichen** nutzen, ohne einen Fehler zu erzeugen, brauchst du das Markierungszeichen `\"`.
 
 ```python
 text = "Der \"FCL\" ist mein Lieblingsclub."    # Der "FCL" ist mein Lieblingsclub.

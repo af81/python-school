@@ -60,6 +60,7 @@ nav:
         - Änderungen nachvollziehen: aufgaben/git-commit.md
         - Änderungen rückgängig machen: aufgaben/git-change.md
         - Github-Repos verbinden: aufgaben/github.md
+        - Github im Team nutzen: aufgaben/github-team.md
       - "Python Basics":
         - Repo einrichten: aufgaben/python-repo.md
         - Block 1: aufgaben/block_1.md
