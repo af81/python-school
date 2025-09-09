@@ -31,7 +31,7 @@ git checkout -b feature/deinname
 
 **3. Änderungen machen**
 
-- Öffne die Program.cs und schreibe auf eine Zeile deinen Vor- und Nachnamen.
+- Öffne die Datei **names.py** und schreibe auf eine Zeile deinen Vor- und Nachnamen.
 
 **4. Commit & Push**
 
