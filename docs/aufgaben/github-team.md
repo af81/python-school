@@ -11,13 +11,13 @@
 Gehe in einen Ordner deiner Wahl und lade das Repot lokal herunter:
 
 ```bash
-git clone https://github.com/af81/CloneItNow
+git clone https://github.com/af81/CloneItPython.git
 ```
 
 Öffne das Projekt in VS Code:
 
 ```bash
-cd CloneItNow
+cd CloneItPython
 code .
 ```
 
