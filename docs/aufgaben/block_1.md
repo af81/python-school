@@ -76,7 +76,7 @@
 
 Erstelle ein Programm, das folgende Aufgabe löst:
 
-- Fragen einen Benutzer, welche Distanz (km) er auf seiner geplanten Reise zurücklegen möchte.
+- Frage einen Benutzer, welche Distanz (km) er auf seiner geplanten Reise zurücklegen möchte.
 - Frage einen Benutzer, wie schnell (km/h) sein Auto durchschnittlich fährt und wie hoch der Verbrauch des Autos in Liter Benzin pro 100km ist.
 - Gib die **Fahrzeit in Minuten** und den **gesamten Benzinverbrauch** aus.
 
