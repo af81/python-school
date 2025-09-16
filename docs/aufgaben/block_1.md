@@ -94,3 +94,9 @@ Erstelle ein Programm, das folgende Aufgabe löst:
 Ein Benutzer soll drei ganzzahlige Werte für **Stunden**, **Minuten** und **Sekunden** eingeben. Danach rechnet deine App die Werte in das **metrische System** (Zehnersystem) mit der Masseinheit **Stunden** um.
 
 z.B. 5 Stunden / 30 Minuten / 0 Sekunden => 5.5 Stunden
+
+---
+
+## 🏆 Lösungen
+
+Die Lösungen findest du in folgendem GitHub-Repo: [https://github.com/af81/PythonBasics](https://github.com/af81/PythonBasics)
