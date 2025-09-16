@@ -76,14 +76,15 @@
 
 Erstelle ein Programm, das folgende Aufgabe löst:
 
-- Frage einen Benutzer, wie schnell sein Auto fährt und wie hoch der Verbrauch des Autos in Liter Benzin pro 100km ist.
-- Frage ihn dann nach der zu fahrenden Distanz und gebe die Fahrzeit in Minuten und den gesamten Benzinverbrauch aus.
+- Fragen einen Benutzer, welche Distanz (km) er auf seiner geplanten Reise zurücklegen möchte.
+- Frage einen Benutzer, wie schnell (km/h) sein Auto durchschnittlich fährt und wie hoch der Verbrauch des Autos in Liter Benzin pro 100km ist.
+- Gib die **Fahrzeit in Minuten** und den **gesamten Benzinverbrauch** aus.
 
 ---
 
 ## 11. Body Mass Index
 
-- Recherchiere im Internet die Formel zur Berechnungs des BMI (Body Mass Index).
+- Recherchiere im Internet die Formel zur Berechnung des **BMI** (Body Mass Index).
 - Realisiere danach ein Programm, das nach den nötigen Werten fragt und dann den BMI berechnet.
 
 ---
