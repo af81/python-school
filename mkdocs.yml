@@ -3,10 +3,19 @@ site_description: Unterrichtsmaterial für das Modul 319 an der BBZW Sursee
 site_author: Dr. Andreas Fischer
 site_url: https://af81.github.io/python-school/
 copyright: Copyright &copy; 2025 Dr. Andreas Fischer
+plugins:
+  - search
+  - mermaid2
 markdown_extensions:
+  - attr_list
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
 theme:
   name: material
   logo: img/python-logo.png
@@ -43,8 +52,7 @@ nav:
         - Variablen & Datentypen: theorie/variablen.md
         - Rechnen: theorie/rechnen.md
         - Operatoren: theorie/operatoren.md
-        # - Datentypen: theorie/python-datentypen.md
-        # - Kontrollstrukturen: theorie/python-kontrollstrukturen.md
+        - Kontrollstrukturen: theorie/kontrollstrukturen.md
         # - Funktionen: theorie/python-funktionen.md
         # - Listen und Tupel: theorie/python-listen-tupel.md
         # - Dictionaries: theorie/python-dictionaries.md
@@ -66,6 +74,7 @@ nav:
       - "Python Basics":
         - Repo einrichten: aufgaben/python-repo.md
         - Block 1: aufgaben/block_1.md
+        - Block 2: aufgaben/block_2.md
   - Klassenregeln: regeln.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
