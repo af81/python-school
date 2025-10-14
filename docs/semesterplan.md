@@ -16,8 +16,8 @@
 | **23.09.25** | Schleifen | for, while, break/continue | Selbstlernen + Übungen | DL6 |
 | **30.09.25** | Herbstferien | 🏔️ | - | - |
 | **07.10.25** | Herbstferien | 🏔️ | - | - |
-| **14.10.25** | Funktionen | Parameter, Rückgabewerte, Modularisierung | Selbstlernen + Mini-Projekt | DL7 |
-| **21.10.25** | Arrays/Listen | Index, Iteration, typische Operationen | Selbstlernen + Übungen | DL8 |
+| **14.10.25** | Arrays/Listen | Index, Iteration, typische Operationen | Selbstlernen + Übungen | DL8 |
+| **21.10.25** | Funktionen | Parameter, Rückgabewerte, Modularisierung | Selbstlernen + Mini-Projekt | DL7 |
 | **28.10.25** | Prüfungsvorbereitung 1 | Repetition, Fragen klären, Übungen lösen | Plenum | - |
 | **04.11.25** | Prüfungsvorbereitung 2 | Repetition, Fragen klären, Übungen lösen | Plenum | - |
 | **11.11.25** | <span style="color:red;">**Prüfung 1 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | Prüfung 1 |

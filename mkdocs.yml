@@ -53,7 +53,7 @@ nav:
         - Rechnen: theorie/rechnen.md
         - Operatoren: theorie/operatoren.md
         - Kontrollstrukturen: theorie/kontrollstrukturen.md
-        - Listen: theorie/lists.md
+        - Listen & Tuples: theorie/lists.md
         # - Funktionen: theorie/python-funktionen.md
         # - Dictionaries: theorie/python-dictionaries.md
         # - Dateien: theorie/python-dateien.md
