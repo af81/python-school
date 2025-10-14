@@ -163,7 +163,7 @@ Anleitung in Textform (Pseudocode):
 2) Berechne den Wochentag h nach dem folgenden Algorithmus:
     - Falls m <= 2, erhöhe m um 10 und erniedrige j um 1, andernfalls erniedrige m um 2.
     - Berechne die ganzzahligen Werte c = j // 100 und j = j Modulo 100 (Modulo -> %)
-    - Berechne den ganzzahligen Wert: h = (((26*m-2)//10)+t+j+j/4+c/4-2*c) Modulo 7
+    - Berechne den ganzzahligen Wert: h = int((((26*m-2)//10)+t+j+j/4+c/4-2*c) % 7)
     - Falls h kleiner 0 ist, erhöhe h um 7
     - Anschliessend hat h einen Wert zwischen 0 und 6, wobei die Werte 0, 1, ..., 6 den Tagen Sonntag, Montag, ..., Samstag entsprechen.
 3) Gib das Ergebnis in der Form "Der 24.12.2001 ist ein Montag" aus.
