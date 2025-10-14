@@ -142,7 +142,7 @@ Im Verarbeitungsteil ermittelt deine App, mit Hilfe von Verzweigungen, in welche
 ## 5. Jahreszeiten ☀️
 
 Schreibe ein Programm, das den Benutzer zur **Eingabe eines Monats** auffordert (Zahl von 1 bis 12).
-Im Verarbeitungsteil ermittelt deine App mit Hilfe einer **mehrstufigen Verzweigung** (switch -case) ob es sich um einen Frühlings, Sommer- , Herbst- oder Wintermonat handelt. Die ermittelte Information wird danach dem Benutzer ausgegeben.
+Im Verarbeitungsteil ermittelt deine App mit Hilfe einer **mehrstufigen Verzweigung** (match-case) ob es sich um einen Frühlings, Sommer- , Herbst- oder Wintermonat handelt. Die ermittelte Information wird danach dem Benutzer ausgegeben.
 
 ---
 
