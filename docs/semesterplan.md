@@ -8,29 +8,29 @@
 
 | Datum | Thema | Inhalte | Methode | Material |
 |-------|-------|---------|---------|----------|
-| **19.08.25** | Einführung & Organisation | Begrüssung, Modulüberblick, Installation VS Code + Sprache, GitHub-Account | Plenum + Hands-on | [DL1](dl1/index.md) |
-| **26.08.25** | Theoretische Einführung | Wie funktioniert ein Programm? Compiler vs. Interpreter, Begriffe, Programmiersprachen | Vortrag + Diskussion | [DL2](dl2/index.md) |
-| **02.09.25** | Git & GitHub Grundlagen | Git-Prinzip, lokale/remote Repos, Commit, Push, Pull | Lehrer-Demo + Partnerarbeit | DL3 |
-| **09.09.25** | Variablen & Datentypen | Variablen, Datentypen, Ein-/Ausgabe, Casting | Selbstlernen + Coaching | DL4 |
-| **16.09.25** | Bedingungen | if/else, logische Operatoren | Selbstlernen + Übungen | DL5 |
-| **23.09.25** | Schleifen | for, while, break/continue | Selbstlernen + Übungen | DL6 |
+| **19.08.25** | Einführung & Organisation | Begrüssung, Modulüberblick, Installation VS Code + Sprache, GitHub-Account, Mini „Hello World“ | Plenum + Hands-on | [Setup](aufgaben/vscode-setup.md) |
+| **26.08.25** | Theoretische Einführung | Wie funktioniert ein Programm? Compiler vs. Interpreter, Begriffe, Programmiersprachen | Vortrag + Diskussion | [Theorie](theorie/computer-programm.md) |
+| **02.09.25** | Git & GitHub Grundlagen | Git-Prinzip, lokale/remote Repos, Commit, Push, Pull | Lehrer-Demo + Partnerarbeit | [Git & GitHub](theorie/git.md) |
+| **09.09.25** | Variablen & Datentypen | Variablen, Datentypen, Ein-/Ausgabe, Casting | Selbstlernen + Coaching, WU | [Variablen & Datentypen](theorie/variablen.md) |
+| **16.09.25** | Übungen I | Block 1 | Selbstlernen + Übungen | [Block 1](aufgaben/block_1.md) |
+| **23.09.25** | Bedingungen & Schleifen | if/else, logische Operatoren, for, while | Selbstlernen + Übungen | [Kontrollstrukturen](theorie/kontrollstrukturen.md) |
 | **30.09.25** | Herbstferien | 🏔️ | - | - |
 | **07.10.25** | Herbstferien | 🏔️ | - | - |
-| **14.10.25** | Arrays/Listen | Index, Iteration, typische Operationen | Selbstlernen + Übungen | DL8 |
-| **21.10.25** | Funktionen | Parameter, Rückgabewerte, Modularisierung | Selbstlernen + Mini-Projekt | DL7 |
-| **28.10.25** | Prüfungsvorbereitung 1 | Repetition, Fragen klären, Übungen lösen | Plenum | - |
-| **04.11.25** | Prüfungsvorbereitung 2 | Repetition, Fragen klären, Übungen lösen | Plenum | - |
-| **11.11.25** | <span style="color:red;">**Prüfung 1 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | Prüfung 1 |
-| **18.11.25** | Projektvorbereitung | Projektideen, Meilensteine, Git-Workflow | Gruppenarbeit | DL9 |
-| **25.11.25** | Projektstart | Repos erstellen, Aufgabenverteilung, Start Umsetzung | Gruppenarbeit | DL11 |
-| **02.12.25** | Projektarbeit I | Programmierung, Coaching, Code-Review | Gruppenarbeit | DL12 |
-| **09.12.25** | Projektarbeit II | Weiterentwicklung, Tests | Gruppenarbeit | DL13 |
-| **16.12.25** | Projektarbeit III | Bugfixing, Dokumentation | Gruppenarbeit | DL14 |
+| **14.10.25** | Übungen II | Block 2 | Selbstlernen + Übungen | [Block 2](aufgaben/block_2.md) |
+| **21.10.25** | Übungen III | Block 2 | Selbstlernen + Übungen | [Block 2](aufgaben/block_2.md) |
+| **28.10.25** | Prüfungsvorbereitung | Repetition, Fragen klären, Übungen lösen | Plenum, WU | - |
+| **04.11.25** | <span style="color:red;">**Prüfung 1 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | LN 1 |
+| **11.11.25** | Listen & Tuples | Index, Iteration, typische Operationen | Selbstlernen + Übungen | [Listen & Tuples](theorie/lists.md) |
+| **18.11.25** | Übungen IV | Block 3 | Selbstlernen + Übungen | [Block 3](aufgaben/block_3.md) |
+| **25.11.25** | Funktionen | Parameter, Rückgabewerte, Modularisierung | Selbstlernen + Übungen | DL7 |
+| **02.12.25** | Übungen V | Block 4 | Selbstlernen + Übungen | [Block 4](aufgaben/block_4.md) |
+| **09.12.25** | Prüfungsvorbereitung | Repetition, Fragen klären, Übungen lösen | Plenum, WU | - |
+| **16.12.25** | Prüfungsvorbereitung | Repetition, Fragen klären, Übungen lösen | Plenum, WU | - |
 | **23.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
 | **30.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
-| **06.01.26** | <span style="color:red;">**Prüfung 2 (Projekt)**</span> | Projektpräsentation + Code-Fragen, KI erlaubt | Präsentation + Q&A | Prüfung 2 |
-| **13.01.26** | Spezialthema I | z. B. API-Anbindung, Chatbot, Spielentwicklung | Input + Miniprojekt | DL16 |
-| **20.01.26** | Spezialthema II | z. B. Datenbankanbindung, GUI | Input + Miniprojekt | DL17 |
+| **06.01.25** | <span style="color:red;">**Prüfung 2 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | LN 2 |
+| **13.01.26** | Mini-Projekt I | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | - |
+| **20.01.26** | Mini-Projekt II + [Feedback](https://forms.office.com/e/wcz6PvYexx) | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | - |
 
 ---
 
