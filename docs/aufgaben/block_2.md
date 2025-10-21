@@ -222,7 +222,13 @@ Vielleicht kannst du dich noch an die **Teilbarkeitsregel** aus dem Primarschul-
 
 Schreibe ein Programm, bei dem man eine ganze Zahl eingeben kann. Für diese Zahl wird dann die Quersumme berechnet und eine Aussage zur Teilbarkeit durch 3 und 9 gemacht.
 
-Am Ende wird der Benutzer gefragt, ob eine weitere Berechnung erwünscht ist. Falls ja, wird der Bildschirminhlat gelöscht mit `Console.Clear()` und das Programm erneut ausgeführt.
+Am Ende wird der Benutzer gefragt, ob eine weitere Berechnung erwünscht ist. Falls ja, wird der Bildschirminhalt gelöscht mit und das Programm erneut ausgeführt mit:
+
+```python
+import os
+
+os.system('cls')
+```
 
 **Beispiel:**
 - Zahl: 5989785
