@@ -1520,7 +1520,11 @@ Teil 3 - Nun können Tag und Monat bestimmt werden
 <li>etc.</li>
 </ul>
 <p>Schreibe ein Programm, bei dem man eine ganze Zahl eingeben kann. Für diese Zahl wird dann die Quersumme berechnet und eine Aussage zur Teilbarkeit durch 3 und 9 gemacht.</p>
-<p>Am Ende wird der Benutzer gefragt, ob eine weitere Berechnung erwünscht ist. Falls ja, wird der Bildschirminhlat gelöscht mit <code>Console.Clear()</code> und das Programm erneut ausgeführt.</p>
+<p>Am Ende wird der Benutzer gefragt, ob eine weitere Berechnung erwünscht ist. Falls ja, wird der Bildschirminhalt gelöscht mit und das Programm erneut ausgeführt mit:</p>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39;cls&#39;</span><span class="p">)</span>
+</code></pre></div>
 <p><strong>Beispiel:</strong>
 - Zahl: 5989785
 - Quersumme: 51

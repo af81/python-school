@@ -54,7 +54,7 @@ nav:
         - Operatoren: theorie/operatoren.md
         - Kontrollstrukturen: theorie/kontrollstrukturen.md
         - Listen & Tuples: theorie/lists.md
-        # - Funktionen: theorie/python-funktionen.md
+        - Funktionen: theorie/funktionen.md
         # - Dictionaries: theorie/python-dictionaries.md
         # - Dateien: theorie/python-dateien.md
         # - Fehler und Ausnahmen: theorie/python-fehler.md
@@ -76,6 +76,7 @@ nav:
         - Block 1: aufgaben/block_1.md
         - Block 2: aufgaben/block_2.md
         - Block 3: aufgaben/block_3.md
+        - Block 4: aufgaben/block_4.md
   - Klassenregeln: regeln.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
