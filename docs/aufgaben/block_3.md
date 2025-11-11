@@ -149,3 +149,63 @@ Erstelle eine Liste mit den Lieblingsfilmen deiner Freunde.
 1. Sortiere sie alphabetisch.
 2. Gib nur die ersten drei Filme aus.
 3. Gib danach die gesamte Liste rückwärts aus.
+
+---
+
+## 13. Die Inventarliste des Abenteurers 🤠👑
+
+**Geschichte**: Du bist ein Abenteurer, der eine Höhle voller Schätze durchsucht hat. Du möchtest eine Liste der gefundenen Gegenstände führen, um sicherzustellen, dass nichts verloren geht.
+
+**Aufgabe**:
+
+- Schreibe ein Programm, das eine Liste erstellt, um die Namen der Gegenstände zu speichern.
+- Lasse den Benutzer 5 Gegenstände eingeben, die er gefunden hat.
+- Zeige danach die Liste der Gegenstände an.
+- Füge eine Funktion hinzu, die nach einem Gegenstand sucht (der Benutzer gibt den Namen ein) und mitteilt, ob der Gegenstand in der Liste vorhanden ist oder nicht.
+
+**Erweiterung**:
+
+- Ermögliche es dem Benutzer, einen Gegenstand aus der Liste zu entfernen.
+- Sortiere die Liste alphabetisch und zeige sie neu an.
+
+---
+
+## 14. Das Punktesystem der Zaubererakademie 🧙🏼‍♀️🪄
+
+**Geschichte**: Du bist ein Lehrer an einer Zaubererakademie. Deine Schüler haben eine Prüfung in Magie abgelegt, und du möchtest die Punkte der Schüler analysieren.
+
+**Aufgabe**:
+
+Erstelle eine Liste, um die Punkte von 10 Schülern zu speichern (die Punkte können vom Benutzer eingegeben werden oder zufällig generiert werden).
+
+Zeige folgende Informationen an:
+
+-Die höchsten und niedrigsten Punkte.
+- Den Durchschnitt aller Punkte.
+- Die Anzahl der Schüler, die den Test bestanden haben (z.B. Punkte >= 50).
+
+**Erweiterung**:
+
+- Füge die Möglichkeit hinzu, die Punkte eines bestimmten Schülers zu aktualisieren.
+- Sortiere die Punkte der Schüler in absteigender Reihenfolge und zeige die Liste an.
+
+---
+
+## 15. Die Bestandsverwaltung eines Lagerhauses 🏭📦
+
+**Geschichte**: Du bist für die Bestandsverwaltung eines grossen Lagerhauses verantwortlich. Das Lagerhaus hat drei Bereiche, und jeder Bereich enthält fünf verschiedene Artikeltypen. Dein Ziel ist es, den Bestand aller Artikel effizient zu verwalten.
+
+**Aufgabe**:
+
+- Erstelle eine zweidimensionale Liste, um die Bestände der Artikel zu speichern.
+- Die Zeilen repräsentieren die Bereiche im Lagerhaus.
+- Die Spalten repräsentieren die Artikeltypen in jedem Bereich.
+- Initialisiere das Array mit zufälligen Bestandswerten (zwischen 0 und 100).
+- Zeige den gesamten Bestand in tabellarischer Form an.
+- Ermögliche es dem Benutzer, den Bestand eines spezifischen Artikels in einem bestimmten Bereich zu aktualisieren.
+- Berechne die Gesamtanzahl aller Artikel im Lagerhaus.
+
+**Erweiterung**:
+
+- Füge eine Funktion hinzu, um den Bestand eines gesamten Bereichs zurückzusetzen (z. B. nach einer Inventur).
+- Ermittle den Bereich mit den meisten Artikeln.
