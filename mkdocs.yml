@@ -78,7 +78,7 @@ nav:
         - Block 3: aufgaben/block_3.md
         - Block 4: aufgaben/block_4.md
   - Klassenregeln: regeln.md
-  - Test: test.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
       - Nützliche Links: ressourcen/links.md
+      - Probeprüfung: test.md
