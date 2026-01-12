@@ -29,7 +29,7 @@
 | **23.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
 | **30.12.25** | Weihnachtsferien | 🎅🏻 | - | - |
 | **06.01.25** | <span style="color:red;">**Prüfung 2 (schriftlich)**</span> | Theorie & Codeverständnis, ohne KI | Einzelarbeit | LN 2 |
-| **13.01.26** | Mini-Projekt I | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | - |
+| **13.01.26** | Visuelle Darstellung und Modellierung | PAP erstellen und in Code umsetzen | Einzelarbeit | [Arbeitspaket](arbeitspakete/b1.md) |
 | **20.01.26** | Mini-Projekt II + [Feedback](https://forms.office.com/e/wcz6PvYexx) | z. B. Datenbankanbindung, GUI | Input + Miniprojekt, WU | - |
 
 ---

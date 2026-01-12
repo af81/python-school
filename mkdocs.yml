@@ -56,10 +56,6 @@ nav:
         - Kontrollstrukturen: theorie/kontrollstrukturen.md
         - Listen & Tuples: theorie/lists.md
         - Funktionen: theorie/funktionen.md
-        # - Dictionaries: theorie/python-dictionaries.md
-        # - Dateien: theorie/python-dateien.md
-        # - Fehler und Ausnahmen: theorie/python-fehler.md
-        # - Klassen und Objekte: theorie/python-klassen.md
   - Aufgaben:
       - "Setup & Begriffe":
         - VS Code & Python: aufgaben/vscode-setup.md
@@ -78,6 +74,8 @@ nav:
         - Block 2: aufgaben/block_2.md
         - Block 3: aufgaben/block_3.md
         - Block 4: aufgaben/block_4.md
+  - Arbeitspakete:
+      - B1 - Visuelle Darstellung und Modellierung: arbeitspakete/b1.md
   - Klassenregeln: regeln.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
