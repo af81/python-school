@@ -17,12 +17,10 @@ Du wirst:
 ---
 
 ## 📅 Eckdaten
-- **Semester**: Herbst 2025
+- **Semester**: Herbst 2026
 - **Doppellektionen**: 19 × 90 Minuten
 - **Sprache**: Python
-- **Prüfungen**:
-    1. Theorieprüfung (Papier, ohne KI)
-    2. Projektprüfung (mit KI erlaubt, Verständnis wird geprüft)
+- **Prüfungen**: 5 kleinere Prüfungen (Theorie, Code lesen, Code schreiben ohne KI, Fehler finden, Programmabläufe visualisieren)
 
 ---
 

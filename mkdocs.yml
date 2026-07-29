@@ -42,7 +42,7 @@ theme:
         icon: material/weather-sunny
         name: Hellmodus
 nav:
-  - Startseite: index.md
+  - Übersicht: index.md
   - Semesterplan: semesterplan.md
   - Kompetenzmatrix: kompetenzmatrix.md
   - Theorie:
@@ -83,3 +83,5 @@ nav:
       - Nützliche Links: ressourcen/links.md
       - Probeprüfung: test.md
       - Finale Coding-Prüfung: test2.md
+  - Lernstoff:
+      - W1 - Einführung: python/einfuehrung-organisation-handout.md
