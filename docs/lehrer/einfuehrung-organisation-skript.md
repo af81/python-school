@@ -1,5 +1,7 @@
 # Einführung & Organisation
 
+[Folien](../slides/dl1.html)
+
 *Kontext: Berufsschule (Informatik-Grundkurs) · Dauer: 90 Min · Zielgruppe: Lernanfänger ca. 16 Jahre, kein Vorwissen*
 
 **Lernziel:** Die Lernenden kennen den Kursablauf, haben eine funktionierende Entwicklungsumgebung (VS Code + Python) sowie einen GitHub-Account eingerichtet und haben ihr erstes Python-Programm ausgeführt.
