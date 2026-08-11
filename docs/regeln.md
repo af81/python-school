@@ -22,12 +22,13 @@ Damit wir gemeinsam erfolgreich lernen und respektvoll miteinander umgehen, gelt
 - Ich respektiere alle **Schulregeln** (Essen, Trinken, Rauchen/Vapen/Snusen, Parken, Kleider etc.).
 
 ## 4. Digitale Geräte
-- Ich bin verantworltich, dass **alle Programme für den Unterricht** funktionieren (z.B. Teams, OneNote, Safe Exam Browser, VS Code etc.).
+- Ich bin verantworltich, dass **alle Programme für den Unterricht und Prüfungen** funktionieren (z.B. Teams, OneNote, Safe Exam Browser, VS Code etc.).
+- Während eines **Lehrer-Inputs (Vortrag)** sind alle Geräte **zugeklappt** oder **ausgeschaltet**.
 - **Soziale Medien** und **Spiele** sind während des Unterrichts tabu.
 - **Kollaboration** über Teams ist erlaubt.
 - Ich hinterlasse die **Infrastruktur** an meinem Arbeitsplatz ordentlich und melde Defekte.
 
 ## 5. Verantwortung & Fairness
-- Absenzen oder Verspätungen melde ich rechtzeitig (innerhalb von 3 W.) und ehrlich.
-- Jeder trägt zur positiven Lernatmosphäre bei.
+- Absenzen oder Verspätungen melde ich **rechtzeitig** (innerhalb von 3 W.) und ehrlich.
+- Jede und jeder trägt zur positiven Lernatmosphäre bei.
 - Wir halten uns an die Vereinbarungen der Klasse und Lehrpersonen.

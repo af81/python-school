@@ -16,6 +16,9 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 theme:
   name: material
   logo: img/python-logo.png
@@ -43,45 +46,52 @@ theme:
         name: Hellmodus
 nav:
   - Übersicht: index.md
-  - Semesterplan: semesterplan.md
-  - Kompetenzmatrix: kompetenzmatrix.md
-  - Theorie:
-      - Grundlagen Programmierung: theorie/computer-programm.md
-      - Git und GitHub: theorie/git.md
-      - "Python Basics":
-        - Einführung in Python: theorie/firstprogram.md
-        - Variablen & Datentypen: theorie/variablen.md
-        - Rechnen: theorie/rechnen.md
-        - Operatoren: theorie/operatoren.md
-        - Kontrollstrukturen: theorie/kontrollstrukturen.md
-        - Listen & Tuples: theorie/lists.md
-        - Funktionen: theorie/funktionen.md
-  - Aufgaben:
-      - "Setup & Begriffe":
-        - VS Code & Python: aufgaben/vscode-setup.md
-        - Git & GitHub: aufgaben/git-setup.md
-        - Hello World!: aufgaben/hellowoworld.md
-        - Wichtige Begriffe lernen: aufgaben/begriffe.md
-      - "Git & GitHub":
-        - Das erste Repository: aufgaben/git.md
-        - Änderungen nachvollziehen: aufgaben/git-commit.md
-        - Änderungen rückgängig machen: aufgaben/git-change.md
-        - Github-Repos verbinden: aufgaben/github.md
-        - Github im Team nutzen: aufgaben/github-team.md
-      - "Python Basics":
-        - Repo einrichten: aufgaben/python-repo.md
-        - Block 1: aufgaben/block_1.md
-        - Block 2: aufgaben/block_2.md
-        - Block 3: aufgaben/block_3.md
-        - Block 4: aufgaben/block_4.md
-  - Arbeitspakete:
-      - B1 - Visuelle Darstellung und Modellierung: arbeitspakete/b1.md
-  - Klassenregeln: regeln.md
+  - Semesterplan: semesterplan-hs-26.md
+  - Lernstoff:
+      - W1 - Einführung & Setup: schueler/einfuehrung-organisation-handout.md
+      - W2 - Theoretische Einführung: schueler/theoretische-einfuehrung-handout.md
+      - W3 - Git & Github: schueler/git-github-grundlagen-handout.md
+      - W4 - Variablen & Datentypen I: schueler/variablen-1-handout.md
+  - Lehrer-Skripts:
+      - W1 - Einführung & Setup: lehrer/einfuehrung-organisation-skript.md
+      - W2 - Theoretische Einführung: lehrer/theoretische-einfuehrung-skript.md
+      - W3 - Git & Github: lehrer/git-github-grundlagen-skript.md
+      - W4 - Variablen & Datentypen I: lehrer/variablen-1-skript.md
   - Ressourcen:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
       - Lösungen: ressourcen/loesungen.md
       - Nützliche Links: ressourcen/links.md
-      - Probeprüfung: test.md
-      - Finale Coding-Prüfung: test2.md
-  - Lernstoff:
-      - W1 - Einführung: python/einfuehrung-organisation-handout.md
+      - Klassenregeln: regeln.md
+      #- Probeprüfung: test.md
+      #- Finale Coding-Prüfung: test2.md
+  # - Theorie:
+  #     - Grundlagen Programmierung: theorie/computer-programm.md
+  #     - Git und GitHub: theorie/git.md
+  #     - "Python Basics":
+  #       - Einführung in Python: theorie/firstprogram.md
+  #       - Variablen & Datentypen: theorie/variablen.md
+  #       - Rechnen: theorie/rechnen.md
+  #       - Operatoren: theorie/operatoren.md
+  #       - Kontrollstrukturen: theorie/kontrollstrukturen.md
+  #       - Listen & Tuples: theorie/lists.md
+  #       - Funktionen: theorie/funktionen.md
+  # - Aufgaben:
+  #     - "Setup & Begriffe":
+  #       - VS Code & Python: aufgaben/vscode-setup.md
+  #       - Git & GitHub: aufgaben/git-setup.md
+  #       - Hello World!: aufgaben/hellowoworld.md
+  #       - Wichtige Begriffe lernen: aufgaben/begriffe.md
+  #     - "Git & GitHub":
+  #       - Das erste Repository: aufgaben/git.md
+  #       - Änderungen nachvollziehen: aufgaben/git-commit.md
+  #       - Änderungen rückgängig machen: aufgaben/git-change.md
+  #       - Github-Repos verbinden: aufgaben/github.md
+  #       - Github im Team nutzen: aufgaben/github-team.md
+  #     - "Python Basics":
+  #       - Repo einrichten: aufgaben/python-repo.md
+  #       - Block 1: aufgaben/block_1.md
+  #       - Block 2: aufgaben/block_2.md
+  #       - Block 3: aufgaben/block_3.md
+  #       - Block 4: aufgaben/block_4.md
+  # - Arbeitspakete:
+  #     - B1 - Visuelle Darstellung und Modellierung: arbeitspakete/b1.md
