@@ -1,6 +1,6 @@
 # Einführung & Organisation
 
-[Folien](../slides/dl1.html)
+[Folien](../slides/dl1.pdf)
 
 *Kontext: Berufsschule (Informatik-Grundkurs) · Dauer: 90 Min · Zielgruppe: Lernanfänger ca. 16 Jahre, kein Vorwissen*
 

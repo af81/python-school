@@ -20,16 +20,14 @@ Du wirst:
 - **Semester**: Herbst 2026
 - **Doppellektionen**: 19 × 90 Minuten
 - **Sprache**: Python
-- **Prüfungen**: 5 kleinere Prüfungen (Theorie, Code lesen, Code schreiben ohne KI, Fehler finden, Programmabläufe visualisieren)
+- **Prüfungen**: 3 Prüfungen (Theorie, Code lesen, Code schreiben ohne KI, Fehler finden, Programmabläufe visualisieren)
 
 ---
 
 ## 🗺️ Navigation
-- **[Semesterplan](semesterplan.md)** – Überblick über alle Doppellektionen
-- **Lernstoff** – Inhalte, Theorie und Arbeitsaufträge
-- **Prüfungen** – Termine, Anforderungen, Beispielaufgaben
-- **Projekte** – Ideen, Vorgaben, Beispiele
-- **Ressourcen** – Nützliche Links, Installationsanleitungen
+- **[Semesterplan](semesterplan.md)** – Überblick über alle Doppellektionen und Prüfungstermine
+- **Lernstoff** - Inhalte, Theorie und Arbeitsaufträge
+- **Ressourcen** – Nützliche Links, Installationsanleitungen, Klassenregeln
 
 ---
 
