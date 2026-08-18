@@ -29,7 +29,7 @@ Am Ende dieser Lektion weisst du: wie dieses Modul aufgebaut ist, wie du deine E
 5. Lege eine neue Datei `hello.py` an, tippe `print("Hello World!")`ein und führe den Code über den "Run"-Button aus. Was wird im Terminal angezeigt?
 6. Erstelle einen **GitHub-Account** (falls noch nicht vorhanden) und lege ein erstes **Repository** für den Kurs an.
 7. Ergänze zusätzlich ein **Profilbild** und eine kurze **Profilbeschreibung**.
-8. Versieh dein Repository mit einer **README-Datei**, die kurz beschreibt, was darin im Verlauf des Semesters entstehen wird.
+8. *Optional*: Versieh dein Repository mit einer **README-Datei**, die kurz beschreibt, was darin im Verlauf des Semesters entstehen wird.
 
 ## 4. Lösungen
 
