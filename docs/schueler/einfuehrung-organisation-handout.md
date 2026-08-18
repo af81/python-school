@@ -20,11 +20,6 @@ Am Ende dieser Lektion weisst du: wie dieses Modul aufgebaut ist, wie du deine E
 - Ein Programm ist wie ein **Rezept**: eine Anleitung, die der Computer Schritt für Schritt abarbeitet. VS Code ist der Editor, in dem du diese Anleitung schreibst; Python ist die Sprache, in der du sie formulierst.
 - **GitHub** ist die Plattform, auf der du deinen Code sicherst, später mit anderen zusammenarbeitest und dir ein kleines Portfolio aufbaust.
 
-```python
-print("Hello World")
-```
-Das ist bereits ein vollständiges Python-Programm: Es gibt den Text "Hello World" aus.
-
 ## 3. Aufträge
 
 1. Python installieren (Download von python.org, Installation starten, Haken bei "Add to PATH" setzen).
