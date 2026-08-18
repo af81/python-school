@@ -25,7 +25,7 @@ Am Ende dieser Lektion weisst du: wie dieses Modul aufgebaut ist, wie du deine E
 1. Python installieren (Download von python.org, Installation starten, Haken bei "Add to PATH" setzen).
 2. Führe zusätzlich im Terminal `python --version` aus und kontrolliere, dass eine aktuelle Version angezeigt wird.
 3. Visual Studio Code installieren und die Python-Erweiterung über den Extensions-Marktplatz hinzufügen.
-4. Installiere zusätzlich eine **Erweiterung** oder ein **Theme** deiner Wahl in VS Code und notiere kurz, warum du diese gewählt hast.
+4. *Optional*: Installiere zusätzlich eine **Erweiterung** oder ein **Theme** deiner Wahl in VS Code.
 5. Lege eine neue Datei `hello.py` an, tippe `print("Hello World!")`ein und führe den Code über den "Run"-Button aus. Was wird im Terminal angezeigt?
 6. Erstelle einen **GitHub-Account** (falls noch nicht vorhanden) und lege ein erstes **Repository** für den Kurs an.
 7. Ergänze zusätzlich ein **Profilbild** und eine kurze **Profilbeschreibung**.

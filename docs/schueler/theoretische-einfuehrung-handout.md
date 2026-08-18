@@ -4,14 +4,12 @@
 Am Ende dieser Lektion weisst du: was das **EVA-Prinzip** ist und was beim Ausführen eines Programms im Hintergrund passiert, was ein **Algorithmus** ist und welche Eigenschaften ihn auszeichnen, was der Unterschied zwischen **Compiler und Interpreter** ist, dass Computer letztlich mit **Binärcode** arbeiten, und was die wichtigsten Fachbegriffe (Quellcode, Maschinencode, Syntax, Datentyp, Variable, IDE, CPU, RAM u.a.) bedeuten.
 
 ## 1. Einstieg
-*Warum ist das wichtig?*
 
-- Wer den Unterschied zwischen einem Syntaxfehler (wird schon beim Übersetzen erkannt) und einem Laufzeitfehler (zeigt sich erst während der Ausführung) nicht kennt, verliert bei der Fehlersuche wertvolle Zeit.
-- Zu wissen, was im Hintergrund passiert, wenn ein Programm läuft, hilft dir, Fehler gezielter zu finden und Code bewusster zu schreiben.
-- Die Begriffe aus dieser Lektion (Algorithmus, Compiler, Interpreter, Binärcode) sind Grundvokabular der Informatik und werden in der Prüfung sowie in späteren Modulen vorausgesetzt.
+- Wer den Unterschied zwischen einem **Syntaxfehler** (wird schon beim Übersetzen erkannt) und einem **Laufzeitfehler** (zeigt sich erst während der Ausführung) nicht kennt, verliert bei der Fehlersuche wertvolle Zeit.
+- Zu wissen, **was im Hintergrund passiert**, wenn ein Programm läuft, hilft dir, Fehler gezielter zu finden und Code bewusster zu schreiben.
+- Die **Begriffe** aus dieser Lektion (Algorithmus, Compiler, Interpreter, Binärcode) sind **Grundvokabular der Informatik** und werden in der Prüfung sowie in späteren Modulen vorausgesetzt.
 
 ## 2. Grundlagen
-*Um was geht es? Was musst du wissen?*
 
 - **EVA-Prinzip:** Jedes Programm folgt dem Muster **Eingabe → Verarbeitung → Ausgabe**. Eingabe: Daten kommen von aussen (Tastatur, Maus, Sensor). Verarbeitung: Das Programm rechnet, vergleicht, wendet Logik an. Ausgabe: Das Ergebnis wird angezeigt, gespeichert oder weitergegeben.
 
@@ -76,7 +74,7 @@ print(a - b)
 3. Erweitere den Code um eine eigene Variable und Berechnung, sodass ein von dir gewähltes Ergebnis herauskommt, und erkläre deinen Denkweg.
 
 ### Aufgabe 2: Compiler oder Interpreter?
-Ordne die Sprachen Python, C, Java und JavaScript danach ein, ob sie eher kompiliert oder interpretiert ausgeführt werden.
+Ordne die Sprachen Python, C, Java und JavaScript danach ein, ob sie eher **kompiliert** oder **interpretiert** ausgeführt werden.
 
 | Sprache | Merkmal |
 |---|---|
