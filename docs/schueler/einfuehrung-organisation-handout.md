@@ -31,16 +31,12 @@ Am Ende dieser Lektion weisst du: wie dieses Modul aufgebaut ist, wie du deine E
 7. Ergänze zusätzlich ein **Profilbild** und eine kurze **Profilbeschreibung**.
 8. *Optional*: Versieh dein Repository mit einer **README-Datei**, die kurz beschreibt, was darin im Verlauf des Semesters entstehen wird.
 
-## 4. Lösungen
+## 4. Checkliste
 
-**Entwicklungsumgebung:**
+Die Aufträge sind erfüllt, wenn folgende Bedingungen zutreffen:
 
 - [ ] Nach korrekter Installation zeigt `python --version` z.B. `Python 3.14.x` an, und `hello.py` gibt beim Ausführen "Hello World" aus.
-- [ ] Es gibt keine "falsche" Wahl bei Theme/Erweiterung – wichtig ist eine nachvollziehbare Begründung (z.B. bessere Lesbarkeit, dunkles Design für die Augen).
-
-**GitHub-Account & Repository:**
-
-- [ ] Repository "python-kurs-[Nachname]" ist im eigenen Profil sichtbar und öffentlich oder privat (je nach Vorgabe) erreichbar.
+- [ ] Dein erstelltes Repository ist im eigenen Profil sichtbar und öffentlich erreichbar.
 - [ ] Profilbild und Beschreibung sind im GitHub-Profil sichtbar.
 - [ ] Beispiel für eine passende README: "In diesem Repository sammle ich meine Python-Übungen aus dem Informatik-Grundkurs."
 
