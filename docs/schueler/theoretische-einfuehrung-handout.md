@@ -3,11 +3,15 @@
 ## Lernziel
 Am Ende dieser Lektion weisst du: was das **EVA-Prinzip** ist und was beim Ausführen eines Programms im Hintergrund passiert, was ein **Algorithmus** ist und welche Eigenschaften ihn auszeichnen, was der Unterschied zwischen **Compiler und Interpreter** ist, dass Computer letztlich mit **Binärcode** arbeiten, und was die wichtigsten Fachbegriffe (Quellcode, Maschinencode, Syntax, Datentyp, Variable, IDE, CPU, RAM u.a.) bedeuten.
 
+---
+
 ## 1. Einstieg
 
 - Wer den Unterschied zwischen einem **Syntaxfehler** (wird schon beim Übersetzen erkannt) und einem **Laufzeitfehler** (zeigt sich erst während der Ausführung) nicht kennt, verliert bei der Fehlersuche wertvolle Zeit.
 - Zu wissen, **was im Hintergrund passiert**, wenn ein Programm läuft, hilft dir, Fehler gezielter zu finden und Code bewusster zu schreiben.
 - Die **Begriffe** aus dieser Lektion (Algorithmus, Compiler, Interpreter, Binärcode) sind **Grundvokabular der Informatik** und werden in der Prüfung sowie in späteren Modulen vorausgesetzt.
+
+---
 
 ## 2. Grundlagen
 
@@ -30,37 +34,67 @@ print(begruessung)
 - Python ist eine **interpretierte Sprache**. Das siehst du daran, dass du ein Skript direkt ausführen kannst, ohne einen separaten Übersetzungsschritt.
 - **Binärcode:** Ein Computer kennt nur elektrische Signale ein (1) und aus (0). Mehrere Bits ergeben ein Byte. Alles im Computer – Zahlen, Texte, Bilder, Musik – wird letztlich binär dargestellt (Beispiel: Dezimalzahl 5 = Binär `0101`, Buchstabe "A" = ASCII-Binär `01000001`). Wie man zwischen Dezimal- und Binärzahlen umrechnet, lernst du in einem anderen Modul.
 
-```python
-a = 5
-b = 3
-print(a + b)
-```
-Python liest Zeile 1, führt sie aus, liest Zeile 2, führt sie aus – und so weiter, bis Zeile 3 "8" ausgibt.
-
 **Glossar zum Nachschlagen:**
 
 | Begriff | Erklärung |
 |---|---|
 | IDE | Softwareumgebung zum Schreiben, Testen und Debuggen von Programmen (z.B. VS Code) |
 | Syntax | Die Regeln einer Programmiersprache; Fehler darin führen zu Fehlermeldungen |
-| Datentyp | Gibt an, welche Art von Daten eine Variable speichert (Zahl, Text, Wahr/Falsch) |
 | Variable | Ein benannter Speicherplatz für Daten, dessen Inhalt sich ändern kann |
+| Datentyp | Gibt an, welche Art von Daten eine Variable speichert (Zahl, Text, Wahr/Falsch) |
 | Assembler | Übersetzt Assemblersprache (nahe am Maschinencode) in Maschinencode |
 | CPU | Die zentrale Recheneinheit, die Befehle ausführt und Berechnungen durchführt |
 | RAM | Flüchtiger Arbeitsspeicher, in dem Programme und Daten während der Ausführung liegen |
 
-## 3. Anwendung
-*Wie funktioniert es? Schritt für Schritt am Beispiel*
+---
 
-- Schritt 1: Nimm den Code oben und lies ihn Zeile für Zeile, ohne ihn auszuführen.
-- Schritt 2: Notiere dir, welchen Wert `a` und `b` nach jeder Zeile haben.
-- Schritt 3: Führe den Code danach im Terminal aus und vergleiche mit deiner Vorhersage: `print(a + b)` gibt `8` aus.
+## 3. Aufgaben
 
-## 4. Üben
-*Aufgaben zum Vertiefen*
+### 1. Wie funktioniert Software?
 
-### Aufgabe 1: Code von Hand ausführen
+<iframe width="560" height="315" src="https://www.youtube.com/embed/69PxzpW3GN8?si=TYnlo2oJ8sewW4u8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Beantwortet folgende Fragen zum Video:
+
+- Was ist eine Software in einem Satz?
+- Was muss man tun, damit der Computer unsere Anweisungen versteht?
+- Welche zwei Arten von Software werden erwähnt? Mache je zwei Beispiele.
+- Was muss passieren, damit Benutzereingaben vom Computer verarbeitet werden können?
+- Was ist typischerweise der Entstehungsprozess von Software?
+
+---
+
+### 2. Compiler vs. Interpreter
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DYsQj5bJaZI?si=MdOtsVIIlktcN2-2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Beantwortet folgende Fragen zum Video:
+
+- Was macht ein Compiler?
+- Was sind Vor- und Nachteile eines Compilers?
+- Was macht ein Interpreter?
+- Was sind Vor- und Nachteile eines Interpreters?
+- Wo werden Compiler und Interpreter eingesetzt? Welche Programmiersprachen werden kompiliert, werlche interpretiert?
+
+---
+
+### 3. Frontend vs. Backend
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KoTv9Ab5v9M?si=7pVvqH6H8olo_kM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Beantwortet folgende Fragen zum Video:
+
+- Was ist das Frontend? Wo wird das Frontend ausgeführt?
+- Was ist das Backend? Wo wird das Backend ausgeführt?
+- Wie nennt man einen Entwickler, der sich um Frontend und Backend kümmert?
+- Welche Programmiersprache kann man im Frontend und im Backend einsetzen?
+- Welche Skills (Fähigkeiten) braucht es für das Frontend? Welche für das Backend?
+
+---
+
+### 4. Code von Hand ausführen
 Verfolge den folgenden Code Zeile für Zeile und bestimme die Ausgabe, bevor du ihn laufen lässt.
+
 ```python
 a = 5
 b = 3
@@ -73,35 +107,7 @@ print(a - b)
 2. Sage die Ausgabe des gesamten Codes voraus, überprüfe danach im Terminal.
 3. Erweitere den Code um eine eigene Variable und Berechnung, sodass ein von dir gewähltes Ergebnis herauskommt, und erkläre deinen Denkweg.
 
-### Aufgabe 2: Compiler oder Interpreter?
-Ordne die Sprachen Python, C, Java und JavaScript danach ein, ob sie eher **kompiliert** oder **interpretiert** ausgeführt werden.
-
-| Sprache | Merkmal |
-|---|---|
-| Python | wird direkt Zeile für Zeile ausgeführt |
-| C | wird vor der Ausführung vollständig in Maschinencode übersetzt |
-| Java | wird in Bytecode übersetzt und von der JVM ausgeführt |
-| JavaScript | wird vom Browser/der Engine direkt interpretiert |
-
-1. Ordne anhand der Tabelle oben zu, ob eher kompiliert oder interpretiert.
-2. Nenne zusätzlich für zwei Sprachen einen Vor- und einen Nachteil des jeweiligen Ansatzes.
-3. Recherchiere, wie Java als Hybridfall funktioniert (Bytecode + JVM), und erkläre dies in eigenen Worten.
-
-## 5. Lösungen
-
-**Code von Hand ausführen:**
-
-- [ ] Ausgabe Zeile 3: `8`
-- [ ] Ausgabe Zeile 5: `a` ist nach der Verdopplung `10`, also gibt `print(a - b)` den Wert `7` aus.
-- [ ] Beliebige korrekte Erweiterung ist richtig, solange die eigene Vorhersage nachvollziehbar mit dem tatsächlichen Ergebnis übereinstimmt.
-
-**Compiler oder Interpreter?**
-
-- [ ] Python: interpretiert. C: kompiliert. Java: hybrid (Bytecode, von der JVM interpretiert/just-in-time kompiliert). JavaScript: interpretiert (bzw. JIT-kompiliert durch moderne Engines).
-- [ ] Vor-/Nachteile (Beispiel): Kompilierte Sprachen laufen meist schneller, aber jede Änderung erfordert einen neuen Übersetzungsschritt; interpretierte Sprachen sind flexibler zum schnellen Testen, aber tendenziell langsamer zur Laufzeit.
-
 ## 6. Weiterführende Beispiele und Gedanken
-*Transfer*
 
 - Überlege: Welche Programmiersprache würdest du für eine mobile App wählen, welche für ein eingebettetes Steuergerät im Auto – und warum?
 - Nächste Lektion: Git und GitHub – wie dein eigener Code über die Zeit verwaltet wird.
