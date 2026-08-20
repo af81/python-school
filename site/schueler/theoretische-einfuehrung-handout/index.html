@@ -425,37 +425,46 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-anwendung" class="md-nav__link">
+  <a href="#3-aufgaben" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Anwendung
+      3. Aufgaben
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-uben" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Üben
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="4. Üben">
+    <nav class="md-nav" aria-label="3. Aufgaben">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#aufgabe-1-code-von-hand-ausfuhren" class="md-nav__link">
+  <a href="#1-wie-funktioniert-software" class="md-nav__link">
     <span class="md-ellipsis">
-      Aufgabe 1: Code von Hand ausführen
+      1. Wie funktioniert Software?
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#aufgabe-2-compiler-oder-interpreter" class="md-nav__link">
+  <a href="#2-compiler-vs-interpreter" class="md-nav__link">
     <span class="md-ellipsis">
-      Aufgabe 2: Compiler oder Interpreter?
+      2. Compiler vs. Interpreter
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-frontend-vs-backend" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Frontend vs. Backend
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-code-von-hand-ausfuhren" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Code von Hand ausführen
     </span>
   </a>
   
@@ -463,15 +472,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-losungen" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Lösungen
-    </span>
-  </a>
   
 </li>
       
@@ -679,12 +679,14 @@
 <h1 id="theoretische-einfuhrung-wie-funktioniert-ein-programm">Theoretische Einführung – Wie funktioniert ein Programm?</h1>
 <h2 id="lernziel">Lernziel</h2>
 <p>Am Ende dieser Lektion weisst du: was das <strong>EVA-Prinzip</strong> ist und was beim Ausführen eines Programms im Hintergrund passiert, was ein <strong>Algorithmus</strong> ist und welche Eigenschaften ihn auszeichnen, was der Unterschied zwischen <strong>Compiler und Interpreter</strong> ist, dass Computer letztlich mit <strong>Binärcode</strong> arbeiten, und was die wichtigsten Fachbegriffe (Quellcode, Maschinencode, Syntax, Datentyp, Variable, IDE, CPU, RAM u.a.) bedeuten.</p>
+<hr />
 <h2 id="1-einstieg">1. Einstieg</h2>
 <ul>
 <li>Wer den Unterschied zwischen einem <strong>Syntaxfehler</strong> (wird schon beim Übersetzen erkannt) und einem <strong>Laufzeitfehler</strong> (zeigt sich erst während der Ausführung) nicht kennt, verliert bei der Fehlersuche wertvolle Zeit.</li>
 <li>Zu wissen, <strong>was im Hintergrund passiert</strong>, wenn ein Programm läuft, hilft dir, Fehler gezielter zu finden und Code bewusster zu schreiben.</li>
 <li>Die <strong>Begriffe</strong> aus dieser Lektion (Algorithmus, Compiler, Interpreter, Binärcode) sind <strong>Grundvokabular der Informatik</strong> und werden in der Prüfung sowie in späteren Modulen vorausgesetzt.</li>
 </ul>
+<hr />
 <h2 id="2-grundlagen">2. Grundlagen</h2>
 <ul>
 <li><strong>EVA-Prinzip:</strong> Jedes Programm folgt dem Muster <strong>Eingabe → Verarbeitung → Ausgabe</strong>. Eingabe: Daten kommen von aussen (Tastatur, Maus, Sensor). Verarbeitung: Das Programm rechnet, vergleicht, wendet Logik an. Ausgabe: Das Ergebnis wird angezeigt, gespeichert oder weitergegeben.</li>
@@ -705,11 +707,6 @@
 <li>Python ist eine <strong>interpretierte Sprache</strong>. Das siehst du daran, dass du ein Skript direkt ausführen kannst, ohne einen separaten Übersetzungsschritt.</li>
 <li><strong>Binärcode:</strong> Ein Computer kennt nur elektrische Signale ein (1) und aus (0). Mehrere Bits ergeben ein Byte. Alles im Computer – Zahlen, Texte, Bilder, Musik – wird letztlich binär dargestellt (Beispiel: Dezimalzahl 5 = Binär <code>0101</code>, Buchstabe "A" = ASCII-Binär <code>01000001</code>). Wie man zwischen Dezimal- und Binärzahlen umrechnet, lernst du in einem anderen Modul.</li>
 </ul>
-<p><div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
-</code></pre></div>
-Python liest Zeile 1, führt sie aus, liest Zeile 2, führt sie aus – und so weiter, bis Zeile 3 "8" ausgibt.</p>
 <p><strong>Glossar zum Nachschlagen:</strong></p>
 <table>
 <thead>
@@ -728,12 +725,12 @@ Python liest Zeile 1, führt sie aus, liest Zeile 2, führt sie aus – und so w
 <td>Die Regeln einer Programmiersprache; Fehler darin führen zu Fehlermeldungen</td>
 </tr>
 <tr>
-<td>Datentyp</td>
-<td>Gibt an, welche Art von Daten eine Variable speichert (Zahl, Text, Wahr/Falsch)</td>
-</tr>
-<tr>
 <td>Variable</td>
 <td>Ein benannter Speicherplatz für Daten, dessen Inhalt sich ändern kann</td>
+</tr>
+<tr>
+<td>Datentyp</td>
+<td>Gibt an, welche Art von Daten eine Variable speichert (Zahl, Text, Wahr/Falsch)</td>
 </tr>
 <tr>
 <td>Assembler</td>
@@ -749,75 +746,58 @@ Python liest Zeile 1, führt sie aus, liest Zeile 2, führt sie aus – und so w
 </tr>
 </tbody>
 </table>
-<h2 id="3-anwendung">3. Anwendung</h2>
-<p><em>Wie funktioniert es? Schritt für Schritt am Beispiel</em></p>
+<hr />
+<h2 id="3-aufgaben">3. Aufgaben</h2>
+<h3 id="1-wie-funktioniert-software">1. Wie funktioniert Software?</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/69PxzpW3GN8?si=TYnlo2oJ8sewW4u8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Beantwortet folgende Fragen zum Video:</p>
 <ul>
-<li>Schritt 1: Nimm den Code oben und lies ihn Zeile für Zeile, ohne ihn auszuführen.</li>
-<li>Schritt 2: Notiere dir, welchen Wert <code>a</code> und <code>b</code> nach jeder Zeile haben.</li>
-<li>Schritt 3: Führe den Code danach im Terminal aus und vergleiche mit deiner Vorhersage: <code>print(a + b)</code> gibt <code>8</code> aus.</li>
+<li>Was ist eine Software in einem Satz?</li>
+<li>Was muss man tun, damit der Computer unsere Anweisungen versteht?</li>
+<li>Welche zwei Arten von Software werden erwähnt? Mache je zwei Beispiele.</li>
+<li>Was muss passieren, damit Benutzereingaben vom Computer verarbeitet werden können?</li>
+<li>Was ist typischerweise der Entstehungsprozess von Software?</li>
 </ul>
-<h2 id="4-uben">4. Üben</h2>
-<p><em>Aufgaben zum Vertiefen</em></p>
-<h3 id="aufgabe-1-code-von-hand-ausfuhren">Aufgabe 1: Code von Hand ausführen</h3>
-<p>Verfolge den folgenden Code Zeile für Zeile und bestimme die Ausgabe, bevor du ihn laufen lässt.
+<hr />
+<h3 id="2-compiler-vs-interpreter">2. Compiler vs. Interpreter</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DYsQj5bJaZI?si=MdOtsVIIlktcN2-2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Beantwortet folgende Fragen zum Video:</p>
+<ul>
+<li>Was macht ein Compiler?</li>
+<li>Was sind Vor- und Nachteile eines Compilers?</li>
+<li>Was macht ein Interpreter?</li>
+<li>Was sind Vor- und Nachteile eines Interpreters?</li>
+<li>Wo werden Compiler und Interpreter eingesetzt? Welche Programmiersprachen werden kompiliert, werlche interpretiert?</li>
+</ul>
+<hr />
+<h3 id="3-frontend-vs-backend">3. Frontend vs. Backend</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KoTv9Ab5v9M?si=7pVvqH6H8olo_kM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p>Beantwortet folgende Fragen zum Video:</p>
+<ul>
+<li>Was ist das Frontend? Wo wird das Frontend ausgeführt?</li>
+<li>Was ist das Backend? Wo wird das Backend ausgeführt?</li>
+<li>Wie nennt man einen Entwickler, der sich um Frontend und Backend kümmert?</li>
+<li>Welche Programmiersprache kann man im Frontend und im Backend einsetzen?</li>
+<li>Welche Skills (Fähigkeiten) braucht es für das Frontend? Welche für das Backend?</li>
+</ul>
+<hr />
+<h3 id="4-code-von-hand-ausfuhren">4. Code von Hand ausführen</h3>
+<p>Verfolge den folgenden Code Zeile für Zeile und bestimme die Ausgabe, bevor du ihn laufen lässt.</p>
 <div class="highlight"><pre><span></span><code><span class="n">a</span> <span class="o">=</span> <span class="mi">5</span>
 <span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span>
 <span class="n">a</span> <span class="o">=</span> <span class="n">a</span> <span class="o">*</span> <span class="mi">2</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">a</span> <span class="o">-</span> <span class="n">b</span><span class="p">)</span>
-</code></pre></div></p>
+</code></pre></div>
 <ol>
 <li>Sage die Ausgabe der ersten drei Zeilen voraus und notiere sie.</li>
 <li>Sage die Ausgabe des gesamten Codes voraus, überprüfe danach im Terminal.</li>
 <li>Erweitere den Code um eine eigene Variable und Berechnung, sodass ein von dir gewähltes Ergebnis herauskommt, und erkläre deinen Denkweg.</li>
 </ol>
-<h3 id="aufgabe-2-compiler-oder-interpreter">Aufgabe 2: Compiler oder Interpreter?</h3>
-<p>Ordne die Sprachen Python, C, Java und JavaScript danach ein, ob sie eher <strong>kompiliert</strong> oder <strong>interpretiert</strong> ausgeführt werden.</p>
-<table>
-<thead>
-<tr>
-<th>Sprache</th>
-<th>Merkmal</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Python</td>
-<td>wird direkt Zeile für Zeile ausgeführt</td>
-</tr>
-<tr>
-<td>C</td>
-<td>wird vor der Ausführung vollständig in Maschinencode übersetzt</td>
-</tr>
-<tr>
-<td>Java</td>
-<td>wird in Bytecode übersetzt und von der JVM ausgeführt</td>
-</tr>
-<tr>
-<td>JavaScript</td>
-<td>wird vom Browser/der Engine direkt interpretiert</td>
-</tr>
-</tbody>
-</table>
-<ol>
-<li>Ordne anhand der Tabelle oben zu, ob eher kompiliert oder interpretiert.</li>
-<li>Nenne zusätzlich für zwei Sprachen einen Vor- und einen Nachteil des jeweiligen Ansatzes.</li>
-<li>Recherchiere, wie Java als Hybridfall funktioniert (Bytecode + JVM), und erkläre dies in eigenen Worten.</li>
-</ol>
-<h2 id="5-losungen">5. Lösungen</h2>
-<p><strong>Code von Hand ausführen:</strong></p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ausgabe Zeile 3: <code>8</code></li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Ausgabe Zeile 5: <code>a</code> ist nach der Verdopplung <code>10</code>, also gibt <code>print(a - b)</code> den Wert <code>7</code> aus.</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Beliebige korrekte Erweiterung ist richtig, solange die eigene Vorhersage nachvollziehbar mit dem tatsächlichen Ergebnis übereinstimmt.</li>
-</ul>
-<p><strong>Compiler oder Interpreter?</strong></p>
-<ul class="task-list">
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Python: interpretiert. C: kompiliert. Java: hybrid (Bytecode, von der JVM interpretiert/just-in-time kompiliert). JavaScript: interpretiert (bzw. JIT-kompiliert durch moderne Engines).</li>
-<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Vor-/Nachteile (Beispiel): Kompilierte Sprachen laufen meist schneller, aber jede Änderung erfordert einen neuen Übersetzungsschritt; interpretierte Sprachen sind flexibler zum schnellen Testen, aber tendenziell langsamer zur Laufzeit.</li>
-</ul>
 <h2 id="6-weiterfuhrende-beispiele-und-gedanken">6. Weiterführende Beispiele und Gedanken</h2>
-<p><em>Transfer</em></p>
 <ul>
 <li>Überlege: Welche Programmiersprache würdest du für eine mobile App wählen, welche für ein eingebettetes Steuergerät im Auto – und warum?</li>
 <li>Nächste Lektion: Git und GitHub – wie dein eigener Code über die Zeit verwaltet wird.</li>
