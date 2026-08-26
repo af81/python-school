@@ -50,7 +50,7 @@ print(begruessung)
 
 ## 3. Aufgaben
 
-### 1. Wie funktioniert Software?
+### 1. Wie funktioniert Software? (20')
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/69PxzpW3GN8?si=TYnlo2oJ8sewW4u8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -64,7 +64,7 @@ Beantwortet folgende Fragen zum Video:
 
 ---
 
-### 2. Compiler vs. Interpreter
+### 2. Compiler vs. Interpreter (15')
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DYsQj5bJaZI?si=MdOtsVIIlktcN2-2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -78,7 +78,7 @@ Beantwortet folgende Fragen zum Video:
 
 ---
 
-### 3. Frontend vs. Backend
+### 3. Frontend vs. Backend (10')
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/KoTv9Ab5v9M?si=7pVvqH6H8olo_kM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
