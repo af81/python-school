@@ -78,7 +78,7 @@ print("Hello Git!")
 
 
 #### Schritt 5 – Verbindung testen
-1. Erstelle ein neues Repository auf GitHub
+1. Erstelle ein neues öffentliches (public) Repository auf GitHub
 2. Code lokal commiten und pushen:
 ```bash
 git init
