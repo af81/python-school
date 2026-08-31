@@ -68,7 +68,7 @@ git config --global user.email "deine@email.ch"
 Mit `git config --list` kannst du überprüfen, ob du Git richtig konfiguriert hast.
 
 #### Schritt 4 – Python-Projekt anlegen
-1. Erstelle einen neuen Ordner für dein Projekt, z.B. `mein-git-projekt`, und öffne ihn in VS Code.
+1. Erstelle einen neuen Ordner für dein Projekt mit dem Namen `mein-git-projekt`, und öffne ihn in VS Code.
 2. Erstelle darin eine neue Datei `hello.py`.
 3. Schreibe folgenden Code hinein:
 ```python
@@ -77,9 +77,9 @@ print("Hello Git!")
 4. Speichere die Datei und führe sie einmal aus, um sicherzustellen, dass sie ohne Fehler läuft.
 
 
-#### Schritt 5 – Verbindung testen
-1. Erstelle ein neues öffentliches (public) Repository auf GitHub
-2. Code lokal commiten und pushen:
+#### Schritt 5 – Verbindung zwischen Lokal und Github erstellen
+1. Erstelle ein neues öffentliches (public) Repository auf GitHub, das ebenfalls `mein-git-projekt` heisst.
+2. Den nun angezeigten Code lokal (im Terminal von VS Code) commiten und pushen. Sieht etwa so aus:
 ```bash
 git init
 git add .
