@@ -62,7 +62,7 @@ nav:
       - Wichtige Terminal-Befehle: ressourcen/terminal.md
       - Nützliche Links: ressourcen/links.md
       - Klassenregeln: regeln.md
-      #- Probeprüfung: test.md
+      - Probeprüfung: test.md
       #- Finale Coding-Prüfung: test2.md
   # - Theorie:
   #     - Grundlagen Programmierung: theorie/computer-programm.md
